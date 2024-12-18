@@ -1,0 +1,114 @@
+{
+    "Framework":[
+        {
+            "id": 1,
+            "type": "Framework",
+            "name": "Flask",
+            "description" : "Flask es un framework ligero y minimalista para desarrollar aplicaciones web en Python. Es conocido por su flexibilidad y simplicidad, ya que permite a los desarrolladores crear desde sitios web pequeños hasta aplicaciones web complejas con facilidad. Flask sigue el principio de 'mantenerlo simple pero extensible', lo que significa que puedes agregar funcionalidad a través de extensiones según tus necesidades.",
+            "youcanbuild" : "¿Qué puedes hacer con Flask?",
+            "capabilities" : [
+                "Crear APIs RESTful: Ideal para desarrollar APIs rápidas y escalables.",
+                "Desarrollar aplicaciones web: Desde sitios simples hasta aplicaciones dinámicas y complejas.",
+                "Integrar bases de datos: Soporta múltiples bases de datos como SQLite, MySQL, PostgreSQL, entre otras.",
+                "Autenticación y seguridad: Implementar autenticación de usuarios, permisos y encriptación.",
+                "Renderizar plantillas: Generar contenido dinámico usando Jinja2, su motor de plantillas integrado.",
+                "Construir aplicaciones en tiempo real: Usando extensiones como Flask-SocketIO para WebSockets.",
+                "Testing y depuración: Cuenta con un servidor de desarrollo integrado y herramientas para realizar pruebas automatizadas."
+            ],
+            "url": "https://flask.palletsprojects.com/",
+            "image": "/images/frameworks/flask"
+        },
+        {
+            "id": 2,
+            "type": "Framework",
+            "name": "Express",
+            "description" : "Express es un framework minimalista y flexible para construir aplicaciones web y APIs en Node.js. Es altamente eficiente y extensible, lo que permite a los desarrolladores crear desde servidores simples hasta aplicaciones robustas. Express no impone una estructura rígida, pero ofrece una base sólida con utilidades integradas y soporte para middleware, facilitando la personalización y el manejo de solicitudes HTTP.",
+            "youcanbuild" : "¿Qué puedes hacer con Express?",
+            "capabilities" : [
+                "Crear APIs RESTful: Perfecto para construir servicios API rápidos y eficientes.",
+                "Desarrollar aplicaciones web: Desde páginas estáticas hasta aplicaciones dinámicas y complejas.",
+                "Gestionar solicitudes HTTP: Manejar rutas, parámetros, y respuestas de manera fácil.",
+                "Middleware personalizado: Agregar lógica personalizada para autenticación, manejo de errores, o procesamiento de datos.",
+                "Integrar bases de datos: Compatible con bases de datos como MongoDB, MySQL, PostgreSQL, y más.",
+                "Renderizar vistas: Soporta motores de plantillas como EJS, Pug, o Handlebars para contenido dinámico.",
+                "Realizar pruebas: Compatible con herramientas como Mocha, Chai y Supertest para testing de aplicaciones.",
+                "Soporte para WebSockets: Integración con bibliotecas como Socket.IO para aplicaciones en tiempo real."
+            ],
+            "url": "https://expressjs.com/",
+            "image": "/images/frameworks/express"
+        },
+        {
+            "id": 3,
+            "type": "Framework",
+            "name": "Nest.js",
+            "description" : "Nest.js es un framework progresivo para construir aplicaciones web y APIs eficientes, escalables y mantenibles con Node.js. Está basado en TypeScript y utiliza principios de arquitectura modular, inspirándose en frameworks como Angular. Nest.js permite a los desarrolladores aprovechar las ventajas de la inyección de dependencias, un sistema de módulos estructurado y un enfoque orientado a objetos para el desarrollo de aplicaciones.",
+            "youcanbuild" : "¿Qué puedes hacer con Nest.js?",
+            "capabilities" : [
+                "Crear APIs RESTful y GraphQL: Ideal para desarrollar APIs avanzadas con soporte nativo para GraphQL.",
+                "Desarrollar aplicaciones web: Desde sistemas backend simples hasta aplicaciones empresariales complejas.",
+                "Estructura modular: Organizar el código en módulos para mejorar la escalabilidad y el mantenimiento.",
+                "Soporte para WebSockets: Construir aplicaciones en tiempo real fácilmente.",
+                "Integración con bases de datos: Compatible con múltiples ORM como TypeORM, Sequelize, Prisma y MongoDB.",
+                "Manejo avanzado de excepciones: Implementar filtros de excepciones personalizados para un manejo centralizado de errores.",
+                "Middleware y Guards: Usar middleware y guards para implementar autenticación, autorización y procesamiento de datos.",
+                "Soporte para microservicios: Crear aplicaciones distribuidas con protocolos como gRPC, Kafka o RabbitMQ.",
+                "Testing y depuración: Herramientas integradas para pruebas unitarias y end-to-end utilizando Jest.",
+                "Compatibilidad con TypeScript y JavaScript: Aprovechar las ventajas del tipado fuerte o trabajar directamente con JavaScript si se prefiere."
+            ],
+            "url": "https://nestjs.com/",
+            "image": "/images/frameworks/nest"
+        },
+        {
+            "id": 4,
+            "type": "Framework",
+            "name": "React Native",
+            "description" : "React Native es un framework de código abierto desarrollado por Meta (anteriormente Facebook) para construir aplicaciones móviles nativas usando JavaScript y React. Permite crear aplicaciones para plataformas iOS y Android utilizando una base de código compartida, lo que acelera el desarrollo y reduce costos. React Native traduce los componentes escritos en JavaScript a elementos nativos, ofreciendo una experiencia de usuario fluida y un alto rendimiento.",
+            "youcanbuild" : "¿Qué puedes hacer con React Native?",
+            "capabilities" : [
+                "Desarrollar aplicaciones móviles nativas: Crear aplicaciones para iOS y Android desde una base de código única.",
+                "Interfaz de usuario personalizada: Construir interfaces visualmente atractivas con componentes reutilizables.",
+                "Integración con APIs nativas: Acceder a funcionalidades del dispositivo como cámara, GPS, sensores, almacenamiento, entre otros.",
+                "Desarrollo rápido: Gracias a herramientas como Hot Reloading, puedes visualizar cambios al instante durante el desarrollo.",
+                "Soporte para componentes de terceros: Usar librerías para mapas, gráficos, navegación, etc., como React Navigation y Reanimated.",
+                "Integración con plataformas backend: Conectarse fácilmente a APIs REST, GraphQL o WebSockets.",
+                "Compatibilidad con módulos nativos: Extender funcionalidad escribiendo módulos en lenguajes nativos (Java, Swift, Objective-C).",
+                "Aplicaciones en tiempo real: Crear aplicaciones como chats, redes sociales o plataformas colaborativas.",
+                "Testing y depuración: Soporte para herramientas como Jest, Detox, y React Developer Tools.",
+                "Distribución y publicación: Preparar las aplicaciones para publicarlas en App Store y Google Play."
+            ],
+            "url": "https://reactnative.dev/",
+            "image": "/images/frameworks/reactnative"
+        },
+        {
+            "id": 5,
+            "type": "Framework",
+            "name" : "Flutter",
+            "description" : "Flutter es un framework de código abierto desarrollado por Google para crear aplicaciones nativas multiplataforma con una única base de código. Utiliza Dart como lenguaje de programación y un motor gráfico propio para renderizar interfaces de usuario personalizadas y fluidas. Flutter permite desarrollar aplicaciones para iOS, Android, web, escritorio (Windows, macOS, Linux) y sistemas integrados, ofreciendo alto rendimiento y flexibilidad visual.",
+            "youcanbuild" : "¿Qué puedes hacer con Flutter?",
+            "capabilities" : [
+                "Desarrollar aplicaciones multiplataforma: Crear apps para móviles, web, escritorio y sistemas integrados con una única base de código.",
+                "Diseñar interfaces atractivas: Construir UIs personalizadas con widgets reutilizables y soporte para Material Design y Cupertino (estilo iOS).",
+                "Integrar APIs nativas: Acceder a funcionalidades del dispositivo como cámara, GPS, sensores, almacenamiento y más.",
+                "Desarrollo rápido: Con Hot Reload, puedes visualizar los cambios en tiempo real sin perder el estado de la aplicación.",
+                "Soporte para animaciones: Crear animaciones fluidas y complejas con herramientas integradas.",
+                "Construir aplicaciones en tiempo real: Ideal para apps como chats, comercio electrónico, redes sociales, etc.",
+                "Extender funcionalidad con plugins: Usar o crear plugins para añadir capacidades específicas como notificaciones push o integración con servicios de terceros.",
+                "Testing y depuración: Herramientas integradas para pruebas unitarias, de widgets y end-to-end.",
+                "Publicación en múltiples plataformas: Preparar aplicaciones para App Store, Google Play, navegadores web o entornos de escritorio.",
+                "Soporte para internacionalización: Facilitar la traducción y localización de contenido en diferentes idiomas."
+            ],
+            "url" : "https://flutter.dev/",
+            "image" : "/images/frameworks/flutter"
+        },
+        {
+            "id": 6,
+            "type": "Framework",
+            "name" : "Django",
+            "description" : "",
+            "youcanbuild" : "",
+            "capabilities" : [],
+            "url" : "https://www.djangoproject.com/",
+            "image" : "/images/frameworks/django"
+        }
+    ]
+}

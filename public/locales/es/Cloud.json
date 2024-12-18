@@ -1,0 +1,66 @@
+{
+    "Cloud":[
+        {
+            "id": 1,
+            "type": "Cloud",
+            "name" : "Amazon Web Services",
+            "description" : "Amazon Web Services (AWS) es una plataforma de servicios en la nube ofrecida por Amazon, que proporciona herramientas y soluciones para empresas, startups y desarrolladores. AWS permite construir, implementar y escalar aplicaciones y sistemas de manera segura, flexible y económica.",
+            "youcanbuild" : "¿Qué puedes hacer con AWS?",
+            "capabilities" : [
+                "Alojamiento de aplicaciones: Despliega aplicaciones web, móviles o backend con servicios como Elastic Beanstalk, AWS Lambda o EC2.",
+                "Bases de datos: Gestiona datos estructurados y no estructurados con servicios como RDS, DynamoDB, Redshift o Aurora.",
+                "Almacenamiento de archivos: Usa S3 para almacenamiento escalable de archivos o Glacier para backups de largo plazo.",
+                "Machine Learning e IA: Implementa modelos de aprendizaje automático con SageMaker, o utiliza servicios preentrenados como Rekognition (visión por computadora), Polly (texto a voz) o Comprehend (análisis de lenguaje natural).",
+                "Procesamiento y análisis de datos: Usa herramientas como EMR para big data, Kinesis para streaming de datos y Athena para consultas interactivas.",
+                "Redes y seguridad: Configura redes privadas con VPC, usa servicios como CloudFront para distribución de contenido y gestiona la seguridad con IAM.",
+                "Soluciones híbridas y multicloud: Integra entornos locales y en la nube con AWS Outposts y servicios de migración.",
+                "Internet de las cosas (IoT): Conecta dispositivos con AWS IoT Core para recopilar y analizar datos.",
+                "Desarrollo de juegos: Usa GameLift para alojar y escalar servidores de juegos en línea.",
+                "Infraestructura para DevOps: Automatiza flujos de trabajo con herramientas como CodePipeline, CodeBuild y Elastic Container Service (ECS)."
+            ],
+            "url" : "https://aws.amazon.com/",
+            "image" : "/images/clouds/aws"
+        },
+        {
+            "id": 2,
+            "type": "Cloud",
+            "name" : "Google Cloud",
+            "description" : "Google Cloud es una plataforma de servicios en la nube proporcionada por Google que ofrece una amplia gama de herramientas y soluciones para empresas y desarrolladores. Permite ejecutar aplicaciones, almacenar datos, analizar información y construir sistemas basados en inteligencia artificial, todo con una infraestructura escalable y segura.",
+            "youcanbuild" : "¿Qué puedes hacer con Google Cloud?",
+            "capabilities" : [
+                "Alojamiento de aplicaciones: Despliega aplicaciones web, móviles o backend con servicios como App Engine, Kubernetes Engine o Compute Engine.",
+                "Almacenamiento de datos: Usa bases de datos como Firestore, Cloud SQL o Bigtable para manejar datos estructurados y no estructurados.",
+                "Machine Learning e IA: Implementa modelos de aprendizaje automático con AutoML, Vertex AI y APIs de IA (como Vision, Speech-to-Text y Natural Language).",
+                "Procesamiento y análisis de datos: Trabaja con BigQuery para análisis de datos a gran escala, Dataflow para procesamiento en tiempo real y Dataproc para big data.",
+                "Redes y seguridad: Configura redes privadas, balanceadores de carga y herramientas de seguridad como Identity and Access Management (IAM).",
+                "Desarrollo de soluciones híbridas y multicloud: Usa Anthos para integrar Google Cloud con otras nubes o entornos locales.",
+                "Almacenamiento de archivos: Implementa soluciones con Cloud Storage para almacenar y compartir archivos multimedia o backups.",
+                "Internet de las cosas (IoT): Conecta dispositivos con IoT Core para recopilar y procesar datos.",
+                "Desarrollo de juegos: Escala servidores y maneja el tráfico con Game Servers y servicios relacionados."
+            ],
+            "url" : "https://cloud.google.com/",
+            "image" : "/images/clouds/googlecloud"
+        },
+        {
+            "id": 3,
+            "type": "Cloud",
+            "name" : "Vercel",
+            "description" : "Vercel es una plataforma en la nube diseñada específicamente para el desarrollo y despliegue de aplicaciones web frontend, ofreciendo una experiencia optimizada para desarrolladores. Es conocida por su compatibilidad con frameworks de JavaScript modernos como Next.js y su capacidad para proporcionar un despliegue rápido y global mediante una red de distribución de contenido (CDN).",
+            "youcanbuild" : "¿Qué puedes hacer con Vercel?",
+            "capabilities" : [
+                "Despliegue rápido de aplicaciones: Implementa aplicaciones web estáticas o dinámicas con un solo clic o mediante integración continua desde repositorios como GitHub, GitLab o Bitbucket.",
+                "Soporte para frameworks modernos: Es ideal para frameworks como Next.js, React, Svelte, Angular y Vue.js.",
+                "CDN global: Asegura tiempos de carga rápidos mediante una red de distribución de contenido (CDN) optimizada para aplicaciones web.",
+                "Renderizado del lado del servidor (SSR): Implementa funciones de renderizado dinámico y generación de contenido en tiempo real.",
+                "Almacenamiento de funciones serverless: Usa funciones serverless integradas para manejar lógica backend ligera.",
+                "Escalabilidad automática: Escala automáticamente las aplicaciones según la demanda del tráfico.",
+                "Previsualizaciones en tiempo real: Colabora en equipo con vistas previas automáticas para cada rama de desarrollo o pull request.",
+                "Analíticas integradas: Monitorea el rendimiento de las aplicaciones con métricas integradas como tiempo de carga, Core Web Vitals y más.",
+                "Soporte para dominios personalizados: Configura dominios propios y maneja certificados SSL de manera automática.",
+                "Integración con otras herramientas: Conecta servicios externos como bases de datos, almacenamiento o APIs REST/GraphQL."
+            ],
+            "url" : "https://vercel.com/",
+            "image" : "/images/clouds/vercel"
+        }
+    ]
+}

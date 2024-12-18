@@ -1,0 +1,129 @@
+{
+    "Database": [
+        {
+            "id": 1,
+            "type": "database",
+            "name": "MongoDB",
+            "description":"MongoDB es un sistema de gestión de bases de datos NoSQL orientado a documentos. Almacena datos en un formato JSON/BSON, lo que lo hace ideal para manejar datos no estructurados o semiestructurados. Es conocido por su flexibilidad, escalabilidad horizontal y rendimiento en aplicaciones modernas.",
+            "youcanbuild": "¿Qué puedes hacer con MongoDB?",
+            "capabilities": [
+                "Almacenamiento de datos no estructurados: Guardar datos en documentos JSON/BSON, eliminando la rigidez de las tablas relacionales.",
+                "Consultas flexibles: Realizar búsquedas avanzadas, agregaciones y filtros en datos jerárquicos y complejos.",
+                "Escalabilidad horizontal: Implementar particionamiento (sharding) para manejar grandes volúmenes de datos y cargas de trabajo distribuidas.",
+                "Gestión de transacciones: Asegurar la consistencia de datos con soporte para transacciones ACID en varias colecciones.",
+                "Alta disponibilidad: Configurar replicación con réplicas en clústeres para tolerancia a fallos y recuperación automática.",
+                "Integración con múltiples lenguajes: Compatible con aplicaciones en Node.js, Python, Java, Go, Ruby, y más.",
+                "Análisis de datos en tiempo real: Usar el framework de agregación para realizar análisis y procesamiento de datos complejos.",
+                "Modelado flexible de datos: Almacenar datos jerárquicos o con relaciones polimórficas sin necesidad de esquemas rígidos.",
+                "Soporte para índices avanzados: Crear índices geoespaciales, texto completo y compuestos para mejorar el rendimiento de consultas.",
+                "Integración con ecosistemas modernos: Trabajar con plataformas de Big Data, almacenamiento en la nube y microservicios."
+            ],
+            "url": "https://www.mongodb.com/",
+            "image": "/images/databases/mongodb"
+        },
+        {
+            "id": 2,
+            "type": "database",
+            "name": "MySQL",
+            "description":"MySQL es un sistema de gestión de bases de datos relacional (RDBMS) que utiliza SQL (Structured Query Language) como lenguaje principal para administrar datos. Es ampliamente utilizado para almacenar, organizar y gestionar información en aplicaciones web, empresariales y de software.",
+            "youcanbuild": "¿Qué puedes hacer con MySQL?",
+            "capabilities": [
+                "Almacenamiento de datos estructurados: Organizar datos en tablas relacionadas mediante filas y columnas.",
+                "Consultas avanzadas: Recuperar información específica con operaciones de búsqueda, filtros y agregaciones.",
+                "Gestión de usuarios y permisos: Controlar el acceso a la base de datos mediante roles y políticas de seguridad.",
+                "Escalabilidad: Manejar desde pequeñas aplicaciones hasta grandes sistemas con miles de usuarios.",
+                "Transacciones: Asegurar integridad de los datos con operaciones ACID (Atomicidad, Consistencia, Aislamiento, Durabilidad).",
+                "Integración: Funciona con múltiples lenguajes de programación como PHP, Python, Java, y frameworks populares.",
+                "Replicación y respaldo: Configurar copias de seguridad automáticas y sistemas de replicación para alta disponibilidad.",
+                "Análisis y reportes: Generar reportes a partir de datos almacenados.",
+                "Compatibilidad con herramientas gráficas: Usar interfaces como MySQL Workbench para diseño y administración visual."
+            ],
+            "url": "https://www.mysql.com/",
+            "image": "/images/databases/mysql"
+        },
+        {
+            "id": 3,
+            "type": "database",
+            "name": "PostgreSQL",
+            "description":"PostgreSQL es un sistema de gestión de bases de datos relacional (RDBMS) de código abierto, conocido por ser altamente robusto, escalable y compatible con características avanzadas como tipos de datos personalizados y soporte para JSON. También es extensible, lo que permite a los desarrolladores añadir funcionalidades según las necesidades.",
+            "youcanbuild": "¿Qué puedes hacer con PostgreSQL?",
+            "capabilities": [
+                "Almacenamiento de datos estructurados y no estructurados: Manejar datos relacionales en tablas y documentos JSON/JSONB para mayor flexibilidad.",
+                "Consultas avanzadas: Ejecutar consultas complejas, incluyendo búsquedas con índices avanzados como B-Tree, GiST y GIN.",
+                "Gestión de transacciones: Garantizar la integridad de los datos con soporte completo para ACID.",
+                "Soporte para tipos de datos avanzados: Utilizar tipos como JSON, arrays, XML, UUID, e incluso crear tipos personalizados.",
+                "Escalabilidad horizontal y vertical: Manejar grandes volúmenes de datos con partición y replicación.",
+                "Integración con múltiples lenguajes: Compatible con Python, Java, PHP, Ruby, Node.js, entre otros.",
+                "Soporte para funciones y procedimientos almacenados: Escribir lógica del lado del servidor con PL/pgSQL, Python o JavaScript.",
+                "Análisis y consultas geoespaciales: Usar extensiones como PostGIS para trabajar con datos espaciales y mapas.",
+                "Extensiones personalizadas: Añadir funcionalidades como TimescaleDB para series temporales o pg_partman para partición automática.",
+                "Alta disponibilidad: Implementar replicación en caliente y soluciones como failover para sistemas críticos."
+            ],
+            "url": "https://www.postgresql.org/",
+            "image": "/images/databases/postgresql"
+        },
+        {
+            "id": 4,
+            "type": "database",
+            "name": "Firebase",
+            "description":"Firebase es una plataforma de desarrollo de aplicaciones móviles y web proporcionada por Google, que incluye una base de datos en la nube como uno de sus principales servicios. Las opciones de base de datos son Firebase Realtime Database (base de datos en tiempo real) y Cloud Firestore (base de datos de documentos). Está diseñado para facilitar el desarrollo rápido, sincronización en tiempo real y escalabilidad.",
+            "youcanbuild": "¿Qué puedes hacer con Firebase?",
+            "capabilities": [
+                "Almacenamiento de datos en tiempo real: Sincronizar datos instantáneamente entre clientes usando Firebase Realtime Database.",
+                "Almacenamiento de datos jerárquicos y documentos: Utilizar Firestore para almacenar datos en colecciones y documentos organizados jerárquicamente.",
+                "Consultas avanzadas: Filtrar, ordenar y paginar datos con Firestore usando índices automáticos.",
+                "Integración en tiempo real: Escuchar cambios en la base de datos para actualizaciones automáticas en la interfaz del usuario.",
+                "Escalabilidad automática: Manejar grandes volúmenes de datos y usuarios con infraestructura gestionada por Google.",
+                "Seguridad avanzada: Configurar reglas de seguridad basadas en usuarios y roles para proteger datos.",
+                "Sincronización sin conexión: Permitir que las aplicaciones funcionen sin conexión y se sincronicen automáticamente cuando se restablezca la conexión.",
+                "Integración con servicios de Firebase: Usar otros servicios como Firebase Authentication, Cloud Functions y Firebase Hosting junto con la base de datos.",
+                "Análisis de datos: Exportar datos a BigQuery para análisis avanzado y generación de reportes.",
+                "Flexibilidad en lenguajes de programación: Compatible con aplicaciones desarrolladas en JavaScript, Android, iOS, Flutter, Unity, y más."
+            ],
+            "url": "https://firebase.google.com/",
+            "image": "/images/databases/firebase"
+        },
+        {
+            "id": 5,
+            "type": "database",
+            "name": "MariaDB",
+            "description":"MariaDB es un sistema de gestión de bases de datos relacional (RDBMS) de código abierto, derivado de MySQL. Es conocido por su enfoque en el rendimiento, la escalabilidad y la compatibilidad con MySQL, ofreciendo además características adicionales que lo hacen ideal para aplicaciones modernas.",
+            "youcanbuild": "¿Qué puedes hacer con MariaDB?",
+            "capabilities": [
+                "Almacenamiento de datos estructurados: Gestionar datos relacionales organizados en tablas mediante SQL.",
+                "Consultas avanzadas: Ejecutar consultas complejas y optimizadas con soporte para índices avanzados.",
+                "Transacciones seguras: Garantizar la integridad de los datos con soporte ACID y transacciones.",
+                "Compatibilidad con MySQL: Migrar fácilmente aplicaciones y bases de datos diseñadas para MySQL.",
+                "Escalabilidad: Manejar grandes volúmenes de datos con replicación, partición y soporte para bases de datos distribuidas.",
+                "Soporte para JSON: Trabajar con datos semiestructurados mediante columnas JSON.",
+                "Integración con múltiples lenguajes: Compatible con aplicaciones desarrolladas en PHP, Python, Java, Node.js, y más.",
+                "Alta disponibilidad: Implementar replicación en clústeres con Galera Cluster para tolerancia a fallos.",
+                "Extensibilidad: Ampliar funcionalidades con motores de almacenamiento como Aria, InnoDB, y ColumnStore para análisis de datos.",
+                "Optimización del rendimiento: Realizar consultas más rápidas con índices virtuales y optimizadores avanzados."
+            ],
+            "url": "https://mariadb.org/",
+            "image": "/images/databases/mariadb"
+        },
+        {
+            "id": 6,
+            "type": "database",
+            "name": "Oracle",
+            "description":"Oracle Database es un sistema de gestión de bases de datos relacional (RDBMS) desarrollado por Oracle Corporation, diseñado para aplicaciones de alto rendimiento, escalabilidad y seguridad. Es ampliamente utilizado en entornos empresariales y ofrece características avanzadas para la gestión de datos.",
+            "youcanbuild": "¿Qué puedes hacer con Oracle Database?",
+            "capabilities": [
+                "Almacenamiento de datos estructurados y no estructurados: Gestionar datos relacionales en tablas y datos no estructurados como XML, JSON y multimedia.",
+                "Consultas avanzadas: Utilizar SQL optimizado para consultas complejas y análisis en tiempo real.",
+                "Gestión de transacciones: Garantizar la integridad de los datos con soporte completo para ACID.",
+                "Alta disponibilidad: Configurar sistemas con Oracle Real Application Clusters (RAC) y Data Guard para tolerancia a fallos y recuperación ante desastres.",
+                "Soporte para Big Data: Integrar con soluciones de Big Data y manejar grandes volúmenes de datos mediante particiones y compresión.",
+                "Automatización y machine learning: Usar Oracle Autonomous Database para automatizar tareas como parches, respaldo y ajuste del rendimiento.",
+                "Gestión avanzada de usuarios y seguridad: Implementar encriptación, auditorías y controles de acceso detallados para proteger los datos.",
+                "Análisis y reportes: Ejecutar análisis complejos y visualización de datos con Oracle Analytics Cloud.",
+                "Compatibilidad con múltiples lenguajes: Trabajar con aplicaciones desarrolladas en Java, Python, .NET, PHP y más.",
+                "Extensiones empresariales: Utilizar funcionalidades como Oracle Spatial para datos geoespaciales o Oracle OLAP para análisis multidimensional."
+            ],
+            "url": "https://www.oracle.com/database/",
+            "image": "/images/databases/oracle"
+        }    
+    ]
+}

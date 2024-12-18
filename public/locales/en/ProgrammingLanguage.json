@@ -1,0 +1,112 @@
+{
+  "ProgrammingLanguage": [
+    {
+      "id": 1,
+      "type": "programminglanguage",
+      "name": "JavaScript",
+      "description": "JavaScript is a dynamic, multiparadigm programming language widely used for both frontend and backend web development. It is well-known for its ability to manipulate and update webpage content in real time, handle user events, and perform complex interactions without requiring page reloads. Additionally, it can be used to create mobile, desktop, and server-side applications through platforms like Node.js.",
+      "youcanbuild": "With JavaScript you can do many things, such as:",
+      "capabilities": [
+        "Build interactive user interfaces (using libraries and frameworks like React, Angular, or Vue).",
+        "Manipulate the DOM to dynamically update content and styles.",
+        "Handle HTTP requests to communicate with APIs.",
+        "Develop mobile applications (e.g., with React Native).",
+        "Create backend applications and APIs (using Node.js and frameworks like Express).",
+        "Build 2D and 3D games (with libraries like Three.js or Phaser).",
+        "Automate browser tasks and testing.",
+        "Perform data analysis and processing in applications."
+      ],
+      "image": "/images/languages/JavaScript-logo"
+    },
+    {
+      "id": 2,
+      "type": "programminglanguage",
+      "name": "Java",
+      "description": "Java is an object-oriented, robust, and cross-platform programming language known for its 'write once, run anywhere' capability, enabled by the Java Virtual Machine (JVM). It is widely used for enterprise applications, Android development, embedded systems, and desktop applications. Its design focuses on portability, security, and performance.",
+      "youcanbuild": "With Java you can do many things, such as:",
+      "capabilities": [
+        "Develop robust enterprise applications (using frameworks like Spring or Jakarta EE).",
+        "Create mobile applications for Android (using Android Studio).",
+        "Build desktop applications with graphical interfaces (using libraries like JavaFX or Swing).",
+        "Design distributed systems and web services (with technologies like REST and SOAP).",
+        "Implement software for embedded devices and IoT systems.",
+        "Perform massive data processing and parallel computing (with frameworks like Apache Hadoop or Spark).",
+        "Develop games and simulations.",
+        "Work with databases using JDBC and ORM like Hibernate."
+      ],
+      "image": "/images/languages/java-logo"
+    },
+    {
+      "id": 3,
+      "type": "programminglanguage",
+      "name": "PHP",
+      "description": "PHP is a server-side programming language primarily designed for web development. It is known for its simplicity and ability to seamlessly integrate with HTML, making it ideal for building dynamic web applications. PHP can run on most web servers and supports a wide range of databases, such as MySQL and PostgreSQL.",
+      "youcanbuild": "With PHP you can do many things, such as:",
+      "capabilities": [
+        "Develop dynamic, database-driven web applications.",
+        "Create and manage content management systems (CMS) like WordPress, Joomla, or Drupal.",
+        "Build RESTful APIs to integrate systems and applications.",
+        "Develop e-commerce platforms using tools like Magento or WooCommerce.",
+        "Implement user authentication and management systems.",
+        "Process and generate files such as images, PDFs, and CSVs.",
+        "Automate server-side tasks with custom scripts.",
+        "Conduct security and validation checks on web applications."
+      ],
+      "image": "/images/languages/php-logo"
+    },
+    {
+      "id": 4,
+      "type": "programminglanguage",
+      "name": "Python",
+      "description": "Python is a high-level, versatile, and easy-to-learn programming language, known for its readability and simplicity. It is multiparadigm, meaning it supports object-oriented, functional, and imperative programming. Python is widely used in various fields, from web development and data analysis to artificial intelligence and automation.",
+      "youcanbuild": "With Python you can do many things, such as:",
+      "capabilities": [
+        "Build dynamic web applications (using frameworks like Django, Flask, or FastAPI).",
+        "Analyze and visualize data (with libraries like pandas, NumPy, matplotlib, and seaborn).",
+        "Develop machine learning and artificial intelligence models (using TensorFlow, PyTorch, or Scikit-learn).",
+        "Write automation scripts for repetitive tasks.",
+        "Design desktop applications with graphical user interfaces (using Tkinter, PyQt, or Kivy).",
+        "Process and manipulate files such as PDFs, images, and text files.",
+        "Perform web scraping to gather data from websites (using BeautifulSoup or Scrapy).",
+        "Create games (with libraries like Pygame or Panda3D)."
+      ],
+      "image": "/images/languages/python-logo"
+    },
+    {
+      "id": 5,
+      "type": "programminglanguage",
+      "name": "C#",
+      "description": "C# is a modern, object-oriented programming language developed by Microsoft as part of the .NET platform. It is known for its robustness, versatility, and ability to create a wide range of applications, from desktop software to video games and cloud services. C# is widely used for enterprise development and game creation, thanks to its integration with technologies like .NET and Unity.",
+      "youcanbuild": "With C# you can do many things, such as:",
+      "capabilities": [
+        "Develop desktop applications for Windows (using frameworks like WPF or Windows Forms).",
+        "Build web applications and API services (using ASP.NET Core or MVC).",
+        "Create 2D and 3D video games (using the Unity engine).",
+        "Develop cross-platform mobile applications (with Xamarin or .NET MAUI).",
+        "Design robust enterprise software with cloud and database integration.",
+        "Work on artificial intelligence and machine learning applications (using ML.NET).",
+        "Build embedded systems and IoT solutions (with .NET for embedded devices).",
+        "Implement simulations and interactive graphical tools."
+      ],
+      "image": "/images/languages/csharp-logo"
+    },
+    {
+      "id": 6,
+      "type": "programminglanguage",
+      "name": "C++",
+      "description": "C++ is a general-purpose programming language known for its performance, efficiency, and flexibility. It is an extension of the C language that incorporates object-oriented programming features. C++ is widely used in high-performance systems, hardware-specific software, video games, and real-time critical applications.",
+      "youcanbuild": "With C++ you can do many things, such as:",
+      "capabilities": [
+        "Develop operating systems, hardware drivers, and low-level software.",
+        "Build high-performance applications such as simulations, scientific tools, and rendering engines.",
+        "Create 2D and 3D video games and game engines (using frameworks like Unreal Engine or SDL).",
+        "Design embedded systems and IoT devices.",
+        "Implement real-time and critical systems.",
+        "Work on graphical applications and user interfaces (using frameworks like Qt or wxWidgets).",
+        "Develop artificial intelligence and machine learning applications (using libraries like TensorFlow or Dlib).",
+        "Optimize algorithms and perform intensive data processing."
+      ],
+      "image": "/images/languages/c++-logo"
+    }
+  ]
+}

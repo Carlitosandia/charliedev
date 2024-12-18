@@ -1,0 +1,90 @@
+.titlecontact {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contactcontainer {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    margin: 2rem 2rem;
+}
+
+.photocontainer picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+.picturecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* El contenedor toma todo el ancho disponible */
+    height: 100%; /* O una altura específica si quieres controlar el tamaño */
+    overflow: hidden; /* Evita que la imagen sobresalga */
+}
+
+.picturecontainer img {
+    width: 70%; /* La imagen toma todo el ancho del contenedor */
+    height: 100%; /* La imagen toma todo el alto del contenedor */
+    object-fit: cover; /* La imagen cubre el contenedor manteniendo proporciones */
+}
+
+
+.picturescontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; /* Espacio entre los contenedores */
+}
+
+.picture {
+    display: flex;
+    flex-direction: column; /* Columna: imagen arriba, link abajo */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Centra horizontalmente */
+    height: 5rem; /* Altura uniforme */
+    text-align: center; /* Centra el texto */
+    padding: 1rem; /* Espaciado interno */
+}
+
+.picture img {
+    width: 7rem; /* Ancho consistente */
+    height: 7rem; /* Altura consistente */
+    object-fit: contain; /* Ajusta la imagen sin deformarla */
+}
+
+
+.socialcontainer picture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.socialcontainer img{
+    max-width: 8rem;
+    max-height: 7rem;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.btncontact {
+    margin-top: 1rem;
+    background-color: var(--strongblue);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}

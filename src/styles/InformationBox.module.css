@@ -1,0 +1,51 @@
+.boxcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+}
+
+.row picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+
+.row img{
+    max-width: 40%;
+    max-height: 50%;
+}
+
+.picturecontainer{
+    display: inline-block;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.picturecontainer a{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.picturecontainer:hover{
+    transform: scale(1.4);
+    filter: brightness(75%);
+    cursor: pointer;
+}

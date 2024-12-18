@@ -1,0 +1,27 @@
+.projectcontainer{
+    display: grid;
+    grid-template-columns: 0.40fr 1fr;
+    gap: 10rem;
+    margin: 2rem 2rem;
+}
+
+.projectcontainer h1, h2{
+    margin: 0;
+}
+
+.projectinfo picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.projectinfo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.projectinfo p{
+    font-size: 1.2rem;
+}

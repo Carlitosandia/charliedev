@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "ProgrammingLanguage",
+    "name": "JavaScript",
+    "image": "/images/languages/JavaScript-logo"
+  },
+  {
+    "id": 2,
+    "type": "ProgrammingLanguage",
+    "name": "Java",
+    "image": "/images/languages/java-logo"
+  },
+  {
+    "id": 3,
+    "type": "ProgrammingLanguage",
+    "name": "PHP",
+    "image": "/images/languages/php-logo"
+  },
+  {
+    "id": 4,
+    "type": "ProgrammingLanguage",
+    "name": "Python",
+    "image": "/images/languages/python-logo"
+  },
+  {
+    "id": 5,
+    "type": "ProgrammingLanguage",
+    "name": "C#",
+    "image": "/images/languages/csharp-logo"
+  },
+  {
+    "id": 6,
+    "type": "ProgrammingLanguage",
+    "name": "C++",
+    "image": "/images/languages/c++-logo"
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "ProgrammingLanguage": [
+    {
+      "id": 1,
+      "type": "programminglanguage",
+      "name": "JavaScript",
+      "description": "JavaScript es un lenguaje de programación dinámico y multiparadigma, ampliamente utilizado tanto en el desarrollo del frontend como del backend de aplicaciones web. Es conocido por su capacidad de manipular y actualizar el contenido de las páginas web en tiempo real, gestionar eventos de usuario, y realizar interacciones complejas sin necesidad de recargar la página. Además, puede usarse para crear aplicaciones móviles, de escritorio, y backend de servidores gracias a plataformas como Node.js.",
+      "youcanbuild": "Con JavaScript puedes hacer muchas cosas, como:",
+      "capabilities": [
+        "Crear interfaces de usuario interactivas (con librerías y frameworks como React, Angular o Vue).",
+        "Manipular el DOM para actualizar contenido y estilos dinámicamente.",
+        "Gestionar peticiones HTTP para comunicarse con APIs.",
+        "Desarrollar aplicaciones móviles (por ejemplo, con React Native).",
+        "Crear aplicaciones de backend y APIs (usando Node.js y frameworks como Express).",
+        "Desarrollar videojuegos 2D y 3D (con librerías como Three.js o Phaser).",
+        "Automatizar procesos y pruebas en navegadores.",
+        "Realizar análisis y procesamiento de datos en aplicaciones."
+      ],
+      "image": "/images/languages/JavaScript-logo"
+    },
+    {
+      "id": 2,
+      "type": "programminglanguage",
+      "name": "Java",
+      "description": "Java es un lenguaje de programación orientado a objetos, robusto y multiplataforma, conocido por su lema 'escribe una vez, ejecuta en cualquier lugar' gracias a la máquina virtual de Java (JVM). Es ampliamente utilizado en aplicaciones empresariales, desarrollo de Android, sistemas integrados, y aplicaciones de escritorio. Su diseño se centra en la portabilidad, la seguridad y el rendimiento.",
+      "youcanbuild": "Con Java puedes hacer muchas cosas, como:",
+      "capabilities": [
+        "Desarrollar aplicaciones empresariales robustas (usando frameworks como Spring o Jakarta EE).",
+        "Crear aplicaciones móviles para Android (utilizando Android Studio).",
+        "Construir aplicaciones de escritorio con interfaces gráficas (con librerías como JavaFX o Swing).",
+        "Diseñar sistemas distribuidos y servicios web (con tecnologías como REST y SOAP).",
+        "Implementar software para dispositivos embebidos y sistemas IoT.",
+        "Realizar procesamiento masivo de datos y computación paralela (con frameworks como Apache Hadoop o Spark).",
+        "Desarrollar videojuegos y simulaciones.",
+        "Trabajar con bases de datos mediante JDBC y ORM como Hibernate."
+      ],
+      "image": "/images/languages/java-logo"
+    },
+    {
+      "id": 3,
+      "type": "programminglanguage",
+      "name": "PHP",
+      "description": "PHP es un lenguaje de programación del lado del servidor diseñado principalmente para el desarrollo web. Es conocido por su simplicidad y su capacidad para integrarse fácilmente con HTML, lo que lo hace ideal para crear aplicaciones web dinámicas. PHP puede ejecutarse en la mayoría de los servidores web y es compatible con una amplia gama de bases de datos, como MySQL y PostgreSQL.",
+      "youcanbuild": "Con PHP puedes hacer muchas cosas, como:",
+      "capabilities": [
+        "Desarrollar aplicaciones web dinámicas y basadas en bases de datos.",
+        "Crear y gestionar sistemas de gestión de contenido (CMS) como WordPress, Joomla o Drupal.",
+        "Construir APIs RESTful para integrar sistemas y aplicaciones.",
+        "Desarrollar aplicaciones de comercio electrónico con plataformas como Magento o WooCommerce.",
+        "Implementar sistemas de autenticación y gestión de usuarios.",
+        "Procesar y generar archivos como imágenes, PDFs, y archivos CSV.",
+        "Automatizar tareas en el servidor mediante scripts personalizados.",
+        "Realizar pruebas de seguridad y validación en aplicaciones web."
+      ],
+      "image": "/images/languages/php-logo"
+    },
+    {
+      "id": 4,
+      "type": "programminglanguage",
+      "name": "Python",
+      "description": "Python es un lenguaje de programación de alto nivel, versátil y fácil de aprender, conocido por su legibilidad y simplicidad. Es multiparadigma, lo que significa que admite programación orientada a objetos, funcional e imperativa. Python es utilizado en una amplia variedad de campos, desde desarrollo web y análisis de datos hasta inteligencia artificial y automatización.",
+      "youcanbuild": "Con Python puedes hacer muchas cosas, como:",
+      "capabilities": [
+        "Desarrollar aplicaciones web dinámicas (usando frameworks como Django, Flask o FastAPI).",
+        "Analizar y visualizar datos (con bibliotecas como pandas, NumPy, matplotlib y seaborn).",
+        "Crear modelos de aprendizaje automático e inteligencia artificial (usando TensorFlow, PyTorch o Scikit-learn).",
+        "Desarrollar scripts de automatización para tareas repetitivas.",
+        "Diseñar aplicaciones de escritorio con interfaces gráficas (usando Tkinter, PyQt o Kivy).",
+        "Procesar y manipular archivos como PDFs, imágenes, y archivos de texto.",
+        "Realizar web scraping para recopilar datos de páginas web (usando BeautifulSoup o Scrapy).",
+        "Crear videojuegos (con bibliotecas como Pygame o Panda3D)."
+      ],
+      "image": "/images/languages/python-logo"
+    },
+    {
+      "id": 5,
+      "type": "programminglanguage",
+      "name": "C#",
+      "description": "C# es un lenguaje de programación moderno, orientado a objetos y desarrollado por Microsoft como parte de la plataforma .NET. Es conocido por su robustez, versatilidad y capacidad para construir una amplia variedad de aplicaciones, desde software de escritorio hasta videojuegos y servicios en la nube. C# es ampliamente utilizado en el desarrollo de aplicaciones empresariales y juegos gracias a su integración con tecnologías como .NET y Unity.",
+      "youcanbuild": "Con C# puedes hacer muchas cosas, como:",
+      "capabilities": [
+        "Desarrollar aplicaciones de escritorio para Windows (usando frameworks como WPF o Windows Forms).",
+        "Construir aplicaciones web y servicios API (usando ASP.NET Core o MVC).",
+        "Crear videojuegos en 2D y 3D (usando el motor Unity).",
+        "Desarrollar aplicaciones móviles multiplataforma (con Xamarin o .NET MAUI).",
+        "Diseñar software empresarial robusto con integración en la nube y bases de datos.",
+        "Trabajar en aplicaciones de inteligencia artificial y aprendizaje automático (con ML.NET).",
+        "Desarrollar sistemas integrados e IoT (con .NET para dispositivos embebidos).",
+        "Implementar simulaciones y herramientas gráficas interactivas."
+      ],
+      "image": "/images/languages/csharp-logo"
+    },
+    {
+      "id": 6,
+      "type": "programminglanguage",
+      "name": "C++",
+      "description": "C++ es un lenguaje de programación de propósito general, conocido por su rendimiento, eficiencia y flexibilidad. Es una extensión del lenguaje C que incluye características de programación orientada a objetos. C++ se utiliza ampliamente en sistemas de alto rendimiento, desarrollo de software para hardware específico, videojuegos y aplicaciones críticas en tiempo real.",
+      "youcanbuild": "Con C++ puedes hacer muchas cosas, como:",
+      "capabilities": [
+        "Desarrollar sistemas operativos, controladores de hardware y software de bajo nivel.",
+        "Construir aplicaciones de alto rendimiento como simulaciones, herramientas científicas y motores de renderizado.",
+        "Crear videojuegos y motores gráficos en 2D y 3D (usando frameworks como Unreal Engine o SDL).",
+        "Diseñar sistemas embebidos y dispositivos IoT.",
+        "Implementar aplicaciones en tiempo real y sistemas críticos.",
+        "Trabajar en aplicaciones gráficas y de interfaz de usuario (usando frameworks como Qt o wxWidgets).",
+        "Desarrollar aplicaciones de inteligencia artificial y aprendizaje automático (usando bibliotecas como TensorFlow o Dlib).",
+        "Optimizar algoritmos y procesamiento intensivo de datos."
+      ],
+      "image": "/images/languages/c++-logo"
+    }
+  ]
+}

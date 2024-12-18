@@ -1,0 +1,30 @@
+{
+    "welcome" : "Welcome",
+    "career" : "Software Engineering Student",
+    "info career": [
+        "I am a Software Engineering student at the Autonomous University of Querétaro",
+        "I am currently in the 7th (seventh) semester, I am passionate about programming and software development." ,
+        "Throughout my career I created different projects and acquired skills in different programming languages.",
+        "I have also come across different technologies and tools that helped me improve my skills.",
+        "I understand that technology and programming can be a complicated world, but this should not be an impediment to learning and improving. On the contrary, We should see these challenges as a way to learn and improve.",
+        "We were all beginners at this time and did not have much knowledge in software development, but with time and dedication we can improve.",
+        "For these reasons I would like to share my knowledge and help others improve their software development skills."
+    ],
+    "university" : "Autonomous University of Querétaro",
+    "semester" : "7th (seventh) semester",
+    "slogan" : "Let's debug one idea at a time \uD83D\uDE04",
+    "resume" : "Resume",
+    "made with" : "To create this website I used ReactJS Vite",
+    "info made with" : "Do you want to know why I and other developers prefer to use Vite instead of the Create React app?",
+    "find out" : "Find out!",
+    "title skills" : "Skills",
+    "info skills" : "These are some of the skills I have acquired throughout my career !",
+    "programming languages" : "Programming languages",
+    "databases" : "Databases",
+    "frameworks" : "Frameworks",
+    "styles" : "Styles",
+    "technologies" : "Technologies",
+    "clouds" : "Cloud services",
+    "title projects" : "Projects",
+    "info projects" : "These are some of the projects I have created throughout my career !"
+}

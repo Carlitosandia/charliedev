@@ -1,0 +1,129 @@
+{
+    "Database": [
+        {
+            "id": 1,
+            "type": "database",
+            "name": "MongoDB",
+            "description":"MongoDB is a NoSQL database management system designed for document-oriented data. It stores data in JSON/BSON format, making it ideal for handling unstructured or semi-structured data. MongoDB is known for its flexibility, horizontal scalability, and performance in modern applications.",
+            "youcanbuild": "What can you do with MongoDB?",
+            "capabilities": [
+                "Store unstructured data: Save data in JSON/BSON documents, eliminating the rigidity of relational tables.",
+                "Perform flexible queries: Execute advanced searches, aggregations, and filters on hierarchical and complex data.",
+                "Horizontal scalability: Implement sharding to handle large datasets and distributed workloads.",
+                "Transaction management: Ensure data consistency with ACID transactions across multiple collections.",
+                "High availability: Set up replication with replica sets for fault tolerance and automatic recovery.",
+                "Integration with multiple languages: Compatible with applications built in Node.js, Python, Java, Go, Ruby, and more.",
+                "Real-time data analysis: Use the aggregation framework for complex data processing and analytics.",
+                "Flexible data modeling: Store hierarchical or polymorphic relationships without rigid schemas.",
+                "Support for advanced indexing: Create geospatial, full-text, and compound indexes to enhance query performance.",
+                "Integration with modern ecosystems: Work seamlessly with Big Data platforms, cloud storage, and microservices."
+            ],
+            "url": "https://www.mongodb.com/",
+            "image": "/images/databases/mongodb"
+        },
+        {
+            "id": 2,
+            "type": "database",
+            "name": "MySQL",
+            "description":"MySQL is a relational database management system (RDBMS) that uses SQL (Structured Query Language) as its primary language to manage data. It is widely used for storing, organizing, and managing information in web, enterprise, and software applications.",
+            "youcanbuild": "What can you do with MySQL?",
+            "capabilities": [
+                "Store structured data: Organize data into related tables using rows and columns.",
+                "Perform advanced queries: Retrieve specific information with search operations, filters, and aggregations.",
+                "User and permission management: Control database access with roles and security policies.",
+                "Scalability: Handle small applications to large systems with thousands of users.",
+                "Transactions: Ensure data integrity with ACID (Atomicity, Consistency, Isolation, Durability) operations.",
+                "Integration: Work with multiple programming languages like PHP, Python, Java, and popular frameworks.",
+                "Replication and backup: Set up automated backups and replication systems for high availability.",
+                "Analysis and reporting: Generate reports from stored data.",
+                "Compatibility with graphical tools: Use interfaces like MySQL Workbench for visual design and management."
+            ],
+            "url": "https://www.mysql.com/",
+            "image": "/images/databases/mysql"
+        },
+        {
+            "id": 3,
+            "type": "database",
+            "name": "PostgreSQL",
+            "description":"PostgreSQL is an open-source relational database management system (RDBMS) known for being highly robust, scalable, and supporting advanced features like custom data types and JSON. It is also extensible, allowing developers to add functionality as needed.",
+            "youcanbuild": "What can you do with PostgreSQL?",
+            "capabilities": [
+                "Store structured and unstructured data: Handle relational data in tables and JSON/JSONB documents for flexibility.",
+                "Perform advanced queries: Execute complex queries, including searches with advanced indexes like B-Tree, GiST, and GIN.",
+                "Transaction management: Ensure data integrity with full ACID compliance.",
+                "Support advanced data types: Use types like JSON, arrays, XML, UUID, and even define custom types.",
+                "Horizontal and vertical scalability: Handle large datasets with partitioning and replication.",
+                "Integration with multiple languages: Compatible with Python, Java, PHP, Ruby, Node.js, and others.",
+                "Support for stored functions and procedures: Write server-side logic with PL/pgSQL, Python, or JavaScript.",
+                "Spatial analysis and queries: Use extensions like PostGIS to work with spatial data and maps.",
+                "Custom extensions: Add features like TimescaleDB for time-series data or pg_partman for automated partitioning.",
+                "High availability: Implement hot standby replication and failover solutions for critical systems."
+            ],
+            "url": "https://www.postgresql.org/",
+            "image": "/images/databases/postgresql"
+        },
+        {
+            "id": 4,
+            "type": "database",
+            "name": "Firebase",
+            "description":"Firebase is a mobile and web application development platform provided by Google, with a cloud-based database as one of its key services. The database options include Firebase Realtime Database (real-time database) and Cloud Firestore (document-based database). It is designed for rapid development, real-time synchronization, and scalability.",
+            "youcanbuild": "What can you do with Firebase?",
+            "capabilities": [
+                "Store real-time data: Synchronize data instantly between clients using Firebase Realtime Database.",
+                "Store hierarchical and document-based data: Use Firestore to organize data into collections and documents.",
+                "Perform advanced queries: Filter, sort, and paginate data with Firestore using automated indexing.",
+                "Real-time integration: Listen for database changes to automatically update the user interface.",
+                "Automatic scalability: Handle large volumes of data and users with Google-managed infrastructure.",
+                "Advanced security: Configure user- and role-based security rules to protect your data.",
+                "Offline synchronization: Allow apps to work offline and sync automatically when connectivity is restored.",
+                "Integration with Firebase services: Use other services like Firebase Authentication, Cloud Functions, and Firebase Hosting alongside the database.",
+                "Data analysis: Export data to BigQuery for advanced analytics and reporting.",
+                "Flexibility in programming languages: Compatible with applications built in JavaScript, Android, iOS, Flutter, Unity, and more."
+            ],
+            "url": "https://firebase.google.com/",
+            "image": "/images/databases/firebase"
+        },
+        {
+            "id": 5,
+            "type": "database",
+            "name": "MariaDB",
+            "description":"MariaDB is an open-source relational database management system (RDBMS) derived from MySQL. It is known for its focus on performance, scalability, and compatibility with MySQL, while offering additional features that make it ideal for modern applications.",
+            "youcanbuild": "What can you do with MariaDB?",
+            "capabilities": [
+                "Store structured data: Manage relational data organized in tables using SQL.",
+                "Perform advanced queries: Execute complex and optimized queries with support for advanced indexing.",
+                "Secure transactions: Ensure data integrity with ACID compliance and transactions.",
+                "MySQL compatibility: Easily migrate applications and databases designed for MySQL.",
+                "Scalability: Handle large datasets with replication, partitioning, and support for distributed databases.",
+                "Support for JSON: Work with semi-structured data using JSON columns.",
+                "Integration with multiple languages: Compatible with applications built in PHP, Python, Java, Node.js, and more.",
+                "High availability: Set up replication clusters with Galera Cluster for fault tolerance.",
+                "Extensibility: Extend functionality with storage engines like Aria, InnoDB, and ColumnStore for data analytics.",
+                "Performance optimization: Achieve faster queries with virtual indexes and advanced optimizers."
+            ],
+            "url": "https://mariadb.org/",
+            "image": "/images/databases/mariadb"
+        },
+        {
+            "id": 6,
+            "type": "database",
+            "name": "Oracle",
+            "description":"Oracle Database is a relational database management system (RDBMS) developed by Oracle Corporation, designed for high performance, scalability, and security. It is widely used in enterprise environments and offers advanced features for data management.",
+            "youcanbuild": "What can you do with Oracle Database?",
+            "capabilities": [
+                "Store structured and unstructured data: Manage relational data in tables and unstructured data like XML, JSON, and multimedia.",
+                "Perform advanced queries: Use optimized SQL for complex queries and real-time analytics.",
+                "Transaction management: Ensure data integrity with full ACID compliance.",
+                "High availability: Set up systems with Oracle Real Application Clusters (RAC) and Data Guard for fault tolerance and disaster recovery.",
+                "Support for Big Data: Integrate with Big Data solutions and handle large datasets using partitioning and compression.",
+                "Automation and machine learning: Use Oracle Autonomous Database to automate tasks like patching, backups, and performance tuning.",
+                "Advanced user and security management: Implement encryption, audits, and granular access controls to secure data.",
+                "Analytics and reporting: Perform complex analytics and data visualization with Oracle Analytics Cloud.",
+                "Integration with multiple languages: Work with applications built in Java, Python, .NET, PHP, and more.",
+                "Enterprise extensions: Leverage features like Oracle Spatial for geospatial data or Oracle OLAP for multidimensional analysis."
+            ],
+            "url": "https://www.oracle.com/database/",
+            "image": "/images/databases/oracle"
+        }    
+    ]
+}

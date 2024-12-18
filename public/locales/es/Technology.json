@@ -1,0 +1,256 @@
+{
+    "Technology" : [
+        {
+            "id": 1,
+            "type": "Technology",
+            "name": "React",
+            "description":"React es una biblioteca de JavaScript de código abierto diseñada para construir interfaces de usuario, especialmente en aplicaciones web de una sola página. Permite crear componentes reutilizables que representan partes de una interfaz y manejar de manera eficiente el estado y la renderización de datos dinámicos.",
+            "youcanbuild": "Con React, puedes:",
+            "capabilities": [
+                "Construir aplicaciones web rápidas e interactivas.",
+                "Crear interfaces de usuario reactivas y declarativas.",
+                "Desarrollar aplicaciones móviles utilizando React Native.",
+                "Reutilizar componentes en diferentes proyectos.",
+                "Implementar renderización del lado del servidor (SSR) para mejorar el rendimiento y SEO.",
+                "Manejar fácilmente el estado de las aplicaciones utilizando herramientas como Redux, Context API o MobX."
+            ],
+            "url": "https://reactjs.org/",
+            "image": "/images/technologies/react"
+        },
+        {
+            "id": 2,
+            "type": "Technology",
+            "name": "Node.js",
+            "description":"Node.js es un entorno de ejecución de JavaScript basado en el motor V8 de Google Chrome. Permite ejecutar JavaScript en el lado del servidor, lo que lo hace ideal para construir aplicaciones backend escalables y rápidas. Node.js usa un modelo de E/S no bloqueante y orientado a eventos, lo que lo hace eficiente para manejar múltiples conexiones simultáneas.",
+            "youcanbuild": "Con Node.js, puedes:",
+            "capabilities": [
+                "Crear servidores web rápidos y escalables.",
+                "Desarrollar APIs RESTful y GraphQL.",
+                "Construir aplicaciones en tiempo real, como chats y sistemas de notificaciones.",
+                "Integrar bases de datos como MongoDB, PostgreSQL o MySQL.",
+                "Ejecutar tareas automatizadas con herramientas como npm scripts.",
+                "Desarrollar aplicaciones de línea de comandos.",
+                "Trabajar con herramientas de desarrollo modernas, como Webpack o Babel."
+            ],
+            "url": "https://nodejs.org/en/about",
+            "image": "/images/technologies/nodejs"
+        },
+        {
+            "id": 3,
+            "type": "Technology",
+            "name" : "Docker",
+            "description":"Docker es una plataforma de virtualización ligera basada en contenedores. Permite empaquetar aplicaciones y sus dependencias en un contenedor portátil y reproducible, asegurando que se ejecuten de manera consistente en cualquier entorno, ya sea en desarrollo, pruebas o producción. Los contenedores son más ligeros y rápidos que las máquinas virtuales tradicionales, ya que comparten el mismo núcleo del sistema operativo.",
+            "youcanbuild": "Con Docker, puedes:",
+            "capabilities": [
+                "Empaquetar aplicaciones junto con todas sus dependencias para asegurar consistencia.",
+                "Desplegar aplicaciones en cualquier entorno (local, nube o servidor).",
+                "Escalar aplicaciones fácilmente mediante orquestadores como Docker Swarm o Kubernetes.",
+                "Simplificar el desarrollo colaborativo al compartir imágenes y entornos estandarizados.",
+                "Implementar integraciones y despliegues continuos (CI/CD).",
+                "Ejecutar múltiples aplicaciones o servicios aislados en un mismo servidor.",
+                "Reproducir entornos para pruebas y desarrollo sin conflictos de dependencias."
+            ],
+            "url" : "https://www.docker.com/",
+            "image" : "/images/technologies/docker"
+        },
+        {
+            "id": 4,
+            "type": "Technology",
+            "name": "HTML 5",
+            "description":"HTML5 es la última versión del lenguaje de marcado estándar utilizado para estructurar y presentar contenido en la web. Introduce nuevas etiquetas, atributos y APIs que mejoran la semántica, la accesibilidad y las capacidades multimedia de los sitios web. HTML5 elimina la dependencia de complementos externos como Flash para funcionalidades avanzadas y está diseñado para ser compatible con todos los navegadores modernos.",
+            "youcanbuild": "Con HTML5, puedes:",
+            "capabilities": [
+                "Estructurar contenido web con etiquetas semánticas como <header>, <article>, <section>, <footer>.",
+                "Reproducir audio y video directamente en el navegador usando las etiquetas <audio> y <video>.",
+                "Diseñar aplicaciones web interactivas con APIs como Canvas (<canvas>) para gráficos en 2D/3D y Geolocation para rastreo de ubicación.",
+                "Crear formularios avanzados con nuevos controles de entrada como <date>, <email>, <range>.",
+                "Mejorar el rendimiento de aplicaciones web con almacenamiento local (localStorage, sessionStorage) y soporte para WebSockets.",
+                "Construir experiencias web responsivas y adaptables junto con CSS3 y JavaScript.",
+                "Facilitar la accesibilidad con etiquetas y atributos enriquecidos."
+            ],
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+            "image": "/images/technologies/html"
+        },
+        {
+            "id": 5,
+            "type": "Technology",
+            "name" : "Jupyter Notebook",
+            "description":"Jupyter Notebook es una aplicación web interactiva que permite crear y compartir documentos que contienen código ejecutable, texto explicativo, ecuaciones matemáticas, visualizaciones y otros elementos multimedia. Es ampliamente utilizada en ciencia de datos, aprendizaje automático, análisis de datos y educación, ya que combina la ejecución de código con una narrativa interactiva.",
+            "youcanbuild": "Con Jupyter Notebook, puedes:",
+            "capabilities": [
+                "Escribir y ejecutar código en múltiples lenguajes de programación, como Python, R, Julia, entre otros.",
+                "Crear análisis reproducibles con celdas que combinan texto, ecuaciones (usando LaTeX) y gráficos.",
+                "Visualizar datos de manera interactiva mediante bibliotecas como Matplotlib, Seaborn y Plotly.",
+                "Realizar prototipos y experimentación de código rápidamente.",
+                "Compartir documentos interactivos con otros, exportándolos a formatos como HTML, PDF o Markdown.",
+                "Conectarte a entornos remotos, como servidores o clusters, para ejecutar código en hardware avanzado.",
+                "Documentar proyectos o investigaciones científicas de manera clara y estructurada."
+            ],
+            "url" : "https://jupyter.org/",
+            "image" : "/images/technologies/jupyter"
+        },
+        {
+            "id": 6,
+            "type": "Technology",
+            "name" : "Git",
+            "description":"Git es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código fuente, colaborar en proyectos y gestionar de manera eficiente el historial de versiones de un proyecto. Es rápido, confiable y ofrece herramientas poderosas para fusionar y comparar cambios. Git no depende de un servidor central, lo que significa que cada copia de un repositorio es completa e independiente.",
+            "youcanbuild": "Con Git, puedes:",
+            "capabilities": [
+                "Rastrear los cambios realizados en un proyecto y deshacer modificaciones si es necesario.",
+                "Trabajar en múltiples ramas de desarrollo para experimentar sin afectar el código principal.",
+                "Fusionar ramas para integrar nuevas características o solucionar problemas.",
+                "Colaborar con equipos distribuidos utilizando repositorios compartidos en una red o en tu propio servidor.",
+                "Gestionar versiones de cualquier tipo de proyecto, no solo código (como documentos o configuraciones).",
+                "Realizar auditorías del historial de cambios con información sobre qué se cambió, cuándo y por quién.",
+                "Crear y aplicar parches para distribuir cambios de manera eficiente sin acceso directo a un servidor."
+            ],
+            "url" : "https://git-scm.com/",
+            "image" : "/images/technologies/git"
+        },
+        {
+            "id": 7,
+            "type": "Technology",
+            "name" : "GitHub",
+            "description":"GitHub es una plataforma basada en la nube que permite almacenar y gestionar proyectos que usan Git como sistema de control de versiones. Además de ser un repositorio remoto, GitHub ofrece herramientas para colaborar, automatizar flujos de trabajo, y gestionar el ciclo de vida del desarrollo de software. Es ideal para proyectos individuales y en equipo, y admite tanto repositorios públicos como privados.",
+            "youcanbuild": "Con GitHub, puedes:",
+            "capabilities": [
+                "Almacenar y gestionar repositorios de Git en la nube.",
+                "Colaborar en proyectos con equipos distribuidos mediante pull requests, revisiones de código y comentarios en línea.",
+                "Automatizar flujos de trabajo con GitHub Actions para tareas como integración continua (CI) y despliegues continuos (CD).",
+                "Administrar problemas, tareas y proyectos utilizando GitHub Issues y GitHub Projects.",
+                "Crear documentación y páginas web para proyectos mediante GitHub Pages.",
+                "Proteger el código con herramientas de seguridad como escaneo de vulnerabilidades y revisiones automáticas.",
+                "Acceder a una comunidad global para contribuir a proyectos de código abierto."
+            ],
+            "url" : "https://github.com",
+            "image" : "/images/technologies/github"
+        },
+        {
+            "id": 8,
+            "type": "Technology",
+            "name" : "Postman",
+            "description":"Postman es una herramienta colaborativa para desarrollar, probar, documentar y monitorear APIs. Permite a los desarrolladores interactuar con APIs de manera sencilla a través de una interfaz gráfica, sin necesidad de escribir scripts manuales para enviar solicitudes HTTP. Es especialmente útil para probar y depurar endpoints durante el desarrollo de aplicaciones.",
+            "youcanbuild": "Con Postman, puedes:",
+            "capabilities": [
+                "Enviar solicitudes HTTP (GET, POST, PUT, DELETE, etc.) y analizar las respuestas del servidor.",
+                "Probar APIs en desarrollo o en producción para asegurarte de que funcionan correctamente.",
+                "Automatizar pruebas de APIs con colecciones y pruebas predefinidas.",
+                "Generar documentación interactiva y compartirla con equipos.",
+                "Simular servidores API (mock servers) para probar aplicaciones antes de que los endpoints estén completamente desarrollados.",
+                "Gestionar variables de entorno para reutilizar configuraciones en diferentes entornos (desarrollo, pruebas, producción).",
+                "Monitorear el rendimiento y la disponibilidad de APIs."
+            ],
+            "url" : "https://www.postman.com/",
+            "image" : "/images/technologies/postman"
+        },
+        {
+            "id": 9,
+            "type": "Technology",
+            "name" : "Unreal Engine",
+            "description":"Unreal Engine es un motor de desarrollo 3D en tiempo real creado por Epic Games. Es ampliamente utilizado para crear videojuegos, simulaciones, aplicaciones de realidad virtual (VR) y realidad aumentada (AR), y proyectos cinematográficos. Ofrece herramientas avanzadas para diseño gráfico, físicas, inteligencia artificial y renderizado, permitiendo crear experiencias inmersivas y de alta calidad visual.",
+            "youcanbuild": "Con Unreal Engine, puedes:",
+            "capabilities": [
+                "Diseñar videojuegos en 2D y 3D para múltiples plataformas, incluyendo consolas, PC y móviles.",
+                "Crear entornos hiperrealistas con el sistema de iluminación global Lumen y el renderizado avanzado Nanite.",
+                "Desarrollar aplicaciones y simulaciones de VR y AR.",
+                "Implementar lógica de juego sin necesidad de programar, utilizando Blueprints, un sistema de scripts visuales.",
+                "Trabajar con herramientas de desarrollo colaborativo, como Perforce, para equipos grandes.",
+                "Realizar efectos visuales (VFX) y cinematografía virtual con herramientas como Sequencer.",
+                "Integrar inteligencia artificial para personajes no jugables (NPCs) y simulaciones avanzadas."
+            ],
+            "url" : "https://www.unrealengine.com/",
+            "image" : "/images/technologies/unreal"
+        },
+        {
+            "id": 10,
+            "type": "Technology",
+            "name" : "Vite",
+            "description":"Vite es una herramienta moderna de desarrollo frontend que permite construir aplicaciones web de manera rápida y eficiente. Diseñada para ofrecer tiempos de arranque casi instantáneos, Vite utiliza módulos de ES nativos en el navegador durante el desarrollo y un compilador rápido basado en herramientas modernas como esbuild o Rollup para la producción. Es compatible con frameworks como React, Vue, Svelte y más.",
+            "youcanbuild": "Con Vite, puedes:",
+            "capabilities": [
+                "Iniciar proyectos con tiempos de arranque rápidos, incluso en aplicaciones grandes.",
+                "Crear aplicaciones web modernas con soporte nativo para módulos ES.",
+                "Utilizar una experiencia de desarrollo reactiva con recarga instantánea (Hot Module Replacement - HMR).",
+                "Configurar y personalizar tu proyecto fácilmente con soporte para plugins y configuraciones basadas en Rollup.",
+                "Optimizar tus proyectos para producción con un sistema de compilación eficiente.",
+                "Integrar con frameworks populares como React, Vue, Svelte o incluso proyectos de vanilla JavaScript.",
+                "Disfrutar de una herramienta ligera y ágil con una experiencia de desarrollo fluida."
+            ],
+            "url" : "https://vitejs.dev/",
+            "image" : "/images/technologies/vite"
+        },
+        {
+            "id": 11,
+            "type": "Technology",
+            "name" : "Composer",
+            "description":"Composer es un gestor de dependencias para proyectos en PHP. Permite declarar las bibliotecas que un proyecto necesita y las instala automáticamente, asegurando que todas las dependencias estén en la versión correcta y listas para ser utilizadas. Composer facilita el manejo de proyectos modulares y promueve el uso de paquetes compartidos a través de su repositorio central, Packagist.",
+            "youcanbuild": "Con Composer, puedes:",
+            "capabilities": [
+                "Instalar, actualizar y administrar las dependencias de tu proyecto PHP.",
+                "Especificar las versiones exactas de las bibliotecas que necesitas en un archivo composer.json.",
+                "Cargar automáticamente tus clases y dependencias con el autoloader generado por Composer.",
+                "Aprovechar miles de paquetes disponibles en Packagist para funcionalidades como bases de datos, autenticación, manejo de rutas, etc.",
+                "Mantener tu proyecto organizado y modular al dividir funcionalidades en paquetes separados.",
+                "Trabajar con entornos reproducibles asegurando consistencia con el archivo composer.lock.",
+                "Integrar fácilmente librerías externas y personalizadas en tus proyectos."
+            ],
+            "url" : "https://getcomposer.org/",
+            "image" : "/images/technologies/composer"
+        },
+        {
+            "id": 12,
+            "type": "Technology",
+            "name" : "Selenium",
+            "description":"Selenium es una herramienta de código abierto para la automatización de pruebas de aplicaciones web. Permite simular la interacción de los usuarios con navegadores web, ejecutando acciones como hacer clic en botones, llenar formularios y verificar el contenido de páginas. Selenium es compatible con múltiples lenguajes de programación y navegadores, lo que lo hace ideal para pruebas funcionales, de regresión y de integración en entornos web.",
+            "youcanbuild": "Con Selenium, puedes:",
+            "capabilities": [
+                "Automatizar pruebas funcionales para aplicaciones web en navegadores como Chrome, Firefox, Edge y Safari.",
+                "Simular interacciones de usuario como clics, escritura, desplazamiento y navegación.",
+                "Ejecutar pruebas en diferentes lenguajes como Java, Python, C#, Ruby, entre otros.",
+                "Realizar pruebas en múltiples plataformas y navegadores con Selenium Grid.",
+                "Integrar pruebas automatizadas en flujos de CI/CD para garantizar calidad continua.",
+                "Validar dinámicamente el contenido de las páginas web y su comportamiento frente a cambios.",
+                "Generar scripts de pruebas reutilizables para ahorrar tiempo en ciclos de desarrollo y aseguramiento de calidad."
+            ],
+            "url" : "https://www.selenium.dev/",
+            "image" : "/images/technologies/selenium"
+        },
+        {
+            "id": 13,
+            "type": "Technology",
+            "name" : "NPM",
+            "description":"NPM (Node Package Manager) es el gestor de paquetes oficial de Node.js y un ecosistema central para bibliotecas JavaScript. Permite instalar, compartir y administrar dependencias necesarias para el desarrollo de aplicaciones, tanto en el frontend como en el backend. NPM también facilita la ejecución de scripts y tareas automatizadas dentro de un proyecto.",
+            "youcanbuild": "Con NPM, puedes:",
+            "capabilities": [
+                "Instalar paquetes de JavaScript disponibles en el registro público de NPM para añadir funcionalidades a tus proyectos.",
+                "Gestionar dependencias de manera eficiente mediante los archivos package.json y package-lock.json.",
+                "Crear y compartir tus propios paquetes con la comunidad.",
+                "Ejecutar scripts personalizados (como pruebas, construcción, despliegues) definidos en el archivo package.json.",
+                "Instalar herramientas de desarrollo como Webpack, Babel o ESLint en tu proyecto.",
+                "Gestionar dependencias locales y globales para proyectos individuales o el entorno de desarrollo.",
+                "Optimizar el flujo de trabajo en equipo al proporcionar un entorno de dependencias reproducible."
+            ],
+            "url" : "https://www.npmjs.com/",
+            "image" : "/images/technologies/npm"                                                                                                                                      
+        },
+        {
+            "id": 14,
+            "type": "Technology",
+            "name": "Axios",
+            "description":"Axios es una biblioteca de JavaScript que permite realizar solicitudes HTTP de manera sencilla y eficiente desde el navegador o Node.js. Es ampliamente utilizada para interactuar con APIs RESTful, ya que soporta promesas y ofrece características como el manejo de respuestas y errores, configuración avanzada, y cancelación de solicitudes.",
+            "youcanbuild": "Con Axios, puedes:",
+            "capabilities": [
+                "Realizar solicitudes HTTP como GET, POST, PUT, DELETE y más.",
+                "Enviar datos en formatos JSON, formularios o archivos.",
+                "Configurar encabezados personalizados y autenticación (por ejemplo, tokens JWT).",
+                "Manejar respuestas de manera sencilla con promesas o async/await.",
+                "Interceptar solicitudes y respuestas para modificar o gestionar datos antes o después del envío.",
+                "Establecer tiempos de espera (timeouts) para controlar solicitudes largas.",
+                "Cancelar solicitudes activas usando tokens de cancelación.",
+                "Trabajar con API de terceros y manejar datos dinámicos de manera eficiente."
+            ],
+            "url": "https://axios-http.com/",
+            "image" : "/images/technologies/axios"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "Cloud":[
+        {
+            "id": 1,
+            "type": "Cloud",
+            "name" : "Amazon Web Services",
+            "description" : "Amazon Web Services (AWS) is a cloud platform offered by Amazon that provides tools and solutions for businesses, startups, and developers. AWS enables you to build, deploy, and scale applications and systems in a secure, flexible, and cost-effective way.",
+            "youcanbuild" : "What can you do with AWS?",
+            "capabilities" : [
+                "Application hosting: Deploy web, mobile, or backend applications with services like Elastic Beanstalk, AWS Lambda, or EC2.",
+                "Databases: Manage structured and unstructured data with services like RDS, DynamoDB, Redshift, or Aurora.",
+                "File storage: Use S3 for scalable file storage or Glacier for long-term backups.",
+                "Machine Learning and AI: Implement machine learning models with SageMaker, or use pre-trained services like Rekognition (computer vision), Polly (text-to-speech), or Comprehend (natural language analysis).",
+                "Data processing and analytics: Use tools like EMR for big data, Kinesis for data streaming, and Athena for interactive queries.",
+                "Networking and security: Configure private networks with VPC, use CloudFront for content delivery, and manage security with IAM.",
+                "Hybrid and multicloud solutions: Integrate on-premises and cloud environments with AWS Outposts and migration services.",
+                "Internet of Things (IoT): Connect devices with AWS IoT Core to collect and analyze data.",
+                "Game development: Use GameLift to host and scale online game servers.",
+                "DevOps infrastructure: Automate workflows with tools like CodePipeline, CodeBuild, and Elastic Container Service (ECS)."
+            ],
+            "url" : "https://aws.amazon.com/",
+            "image" : "/images/clouds/aws"
+        },
+        {
+            "id": 2,
+            "type": "Cloud",
+            "name" : "Google Cloud",
+            "description" : "Google Cloud is a cloud platform provided by Google that offers a wide range of tools and solutions for businesses and developers. It allows you to run applications, store data, analyze information, and build AI-powered systems with scalable and secure infrastructure.",
+            "youcanbuild" : "What can you do with Google Cloud?",
+            "capabilities" : [
+                "Application hosting: Deploy web, mobile, or backend applications using services like App Engine, Kubernetes Engine, or Compute Engine.",
+                "Data storage: Use databases like Firestore, Cloud SQL, or Bigtable to manage structured and unstructured data.",
+                "Machine Learning and AI: Implement machine learning models with AutoML, Vertex AI, and AI APIs (such as Vision, Speech-to-Text, and Natural Language).",
+                "Data processing and analytics: Work with BigQuery for large-scale data analysis, Dataflow for real-time processing, and Dataproc for big data.",
+                "Networking and security: Set up private networks, load balancers, and security tools like Identity and Access Management (IAM).",
+                "Hybrid and multicloud solutions: Use Anthos to integrate Google Cloud with other clouds or on-premises environments.",
+                "File storage: Build solutions with Cloud Storage to store and share media files or backups.",
+                "Internet of Things (IoT): Connect devices with IoT Core to collect and process data.",
+                "Game development: Scale servers and manage traffic with Game Servers and related services."
+            ],
+            "url" : "https://cloud.google.com/",
+            "image" : "/images/clouds/googlecloud"
+        },
+        {
+            "id": 3,
+            "type": "Cloud",
+            "name" : "Vercel",
+            "description" : "Vercel is a cloud platform designed specifically for developing and deploying frontend web applications, providing an optimized experience for developers. It is known for its seamless integration with modern JavaScript frameworks like Next.js and its ability to deliver fast, globally distributed deployments through a content delivery network (CDN).",
+            "youcanbuild" : "What can you do with Vercel?",
+            "capabilities" : [
+                "Fast application deployment: Deploy static or dynamic web applications with one click or through continuous integration from repositories like GitHub, GitLab, or Bitbucket.",
+                "Support for modern frameworks: Ideal for frameworks like Next.js, React, Svelte, Angular, and Vue.js.",
+                "Global CDN: Ensure fast load times through a CDN optimized for web applications.",
+                "Server-side rendering (SSR): Enable dynamic rendering and real-time content generation.",
+                "Serverless functions: Use integrated serverless functions for lightweight backend logic.",
+                "Automatic scalability: Automatically scale applications based on traffic demand.",
+                "Real-time previews: Collaborate with your team using automatic previews for each development branch or pull request.",
+                "Built-in analytics: Monitor application performance with integrated metrics like load times, Core Web Vitals, and more.",
+                "Custom domain support: Set up custom domains and manage SSL certificates automatically.",
+                "Integration with other tools: Connect external services like databases, storage, or REST/GraphQL APIs."
+            ],
+            "url" : "https://vercel.com/",
+            "image" : "/images/clouds/vercel"
+        }
+    ]
+}

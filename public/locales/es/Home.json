@@ -1,0 +1,28 @@
+{
+    "welcome" : "Bienvenido",
+    "career" : "Estudiante de Ingeniería de Software",
+    "info career" : [
+        "Soy un estudiante de Ingeniería de Software en la Universidad Autónoma de Querétaro,",
+        "actualmente me encuentro en el 7mo (septimo) semestre, me apasiona la programación y el desarrollo de software.", 
+        "A lo largo de mi carrera he creado diferentes proyectos y he adquirido habilidades en diferentes lenguajes de programación. A su vez tambien me he encontrado con diferentes tecnologías y herramientas que me han ayudado a mejorar mis habilidades.",
+        "Entiendo que la tecnologia y la programacion puede ser un mundo complicado, pero esto no debe de ser un impedimento para aprender y mejorar, al contrario, deberiamos ver estos desafios como una manera para poder aprender y mejorar.",
+        "Todos en su momento fuimos principiantes y no teniamos muchos conocimientos en el desarrollo de software, pero con tiempo y dedicacion podemos mejorar, por estas razones me gustaria compartir mi conocimiento y ayudar a otros a mejorar sus habilidades en el desarrollo de software."
+    ],
+    "university" : "Universidad Autónoma de Querétaro",
+    "semester" : "7mo (septimo) semestre",
+    "slogan" : "Debugeemos una idea a la vez \uD83D\uDE04",
+    "resume" : "Currículum",
+    "made with" : "Para crear este sitio web utilicé ReactJS Vite",
+    "info made with" : "¿Quieres saber por qué yo y otros desarrolladores preferimos utilizar Vite en lugar de Create React App?",
+    "find out" : "¡Descúbrelo!",
+    "title skills" : "Habilidades",
+    "info skills" : "Estas son algunas de las habilidades que he adquirido a lo largo de mi carrera !",
+    "programming languages" : "Lenguajes de programación",
+    "databases" : "Bases de datos",
+    "frameworks" : "Frameworks",
+    "styles" : "Estilos",
+    "technologies" : "Tecnologías",
+    "clouds" : "Servicios en la nube",
+    "title projects" : "Proyectos",
+    "info projects" : "Estos son algunos de los proyectos que he creado a lo largo de mi carrera !"
+}

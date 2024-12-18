@@ -1,0 +1,43 @@
+.headercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headercontainer nav{
+    display: flex;
+    align-items: center;   
+}
+
+.headercontainer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.headercontainer li{
+    margin: auto;
+}
+
+header {
+    background-color: var(--black);
+    color: white;
+}
+
+header h1 {
+    margin: 1rem 2rem;
+}
+
+.headercontainer a {
+    color: white;
+    text-decoration: none;
+    margin: 2rem 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.light{
+    font-weight: 100;
+}

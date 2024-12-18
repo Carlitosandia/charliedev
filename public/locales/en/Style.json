@@ -1,0 +1,61 @@
+{
+    "Style" :[
+        {
+            "id": 1,
+            "type": "Style",
+            "name" : "CSS",
+            "description" : "CSS is a styling language used to control the appearance and layout of web documents. It works alongside HTML to define how elements are presented on screens, paper, or other media.",
+            "youcanbuild" : "With CSS, you can:",
+            "capabilities" : [
+                "Modify colors, fonts, margins, borders, and other visual styles.",
+                "Define responsive layouts to adapt to various devices and screen sizes.",
+                "Create animations and transitions for enhanced visual interaction.",
+                "Control the positioning of elements using box models, flexbox, or grid.",
+                "Apply styles to specific elements using selectors like classes, IDs, or advanced combinations.",
+                "Customize the design of pseudo-elements and states like :hover, :before, and :after.",
+                "Use modern variables and functions for consistent and reusable styling.",
+                "Integrate advanced effects like shadows, gradients, and filters."
+            ],
+            "url" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "image" : "/images/styles/css"
+        },
+        {
+            "id": 2,
+            "type": "Style",
+            "name" : "Sass",
+            "description" : "Sass is a CSS preprocessor that extends its capabilities, allowing you to write styles in a more structured, reusable, and efficient way. Once compiled, it generates standard CSS interpretable by browsers.",
+            "youcanbuild" : "With Sass, you can:",
+            "capabilities" : [
+                "Use variables to store reusable values like colors, sizes, or fonts.",
+                "Create nesting to structure styles more clearly and reflect the HTML hierarchy.",
+                "Define mixins to reuse code blocks with customizable parameters.",
+                "Utilize functions and operators to perform dynamic calculations (e.g., adjusting colors, sizes, or proportions).",
+                "Organize your code into multiple partial files and combine them into a single compiled CSS file.",
+                "Implement loops and conditionals to dynamically and repetitively generate styles.",
+                "Leverage inheritance with @extend to avoid duplicating similar styles.",
+                "Optimize the maintenance of large projects with a modular and scalable structure."
+            ],
+            "url" : "https://sass-lang.com/",
+            "image" : "/images/styles/sass"
+        },
+        {
+            "id": 3,
+            "type": "Style",
+            "name" : "Tailwind CSS",
+            "description" : "Tailwind CSS is a utility-first CSS framework that enables building customizable and fast user interfaces using pre-defined classes. Instead of writing custom styles, you use classes to directly style HTML elements.",
+            "youcanbuild" : "With Tailwind CSS, you can:",
+            "capabilities" : [
+                "Quickly design interfaces using pre-defined classes like bg-blue-500, text-center, or p-4.",
+                "Fully customize the design with a configuration file that supports extensions like colors, fonts, and sizes.",
+                "Easily implement responsive designs with classes like sm:, md:, lg:, and xl:.",
+                "Create reusable components by combining classes in your HTML or using tools like @apply in CSS files.",
+                "Apply conditional styling with modifiers such as hover:, focus:, or active: for interactive states.",
+                "Work efficiently with built-in mobile-first design.",
+                "Generate optimized CSS files by removing unused styles (tree-shaking) when building projects for production.",
+                "Integrate with modern frameworks like React, Vue, or Next.js to streamline development."
+            ],
+            "url" : "https://tailwindcss.com/",
+            "image" : "/images/styles/tailwind"
+        }
+    ]
+}

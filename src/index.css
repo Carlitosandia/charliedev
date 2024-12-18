@@ -1,0 +1,22 @@
+/* Estilos generales */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Header, contenido principal, Footer */
+  min-height: 100vh; /* Ocupa al menos la altura de la ventana */
+
+  /* Estilos generales */
+  font-family: Arial, sans-serif;
+  --black: #000000; /* Azul principal */
+  --blue: #00d9ff; /* Verde secundario */
+  --red: #9b0f0f; /* Rojo de acento */
+  --white: #ffffff; /* Fondo general */
+  --grey: #333333; /* Color del texto */
+  --green: #11b705; /* Fondo del header y footer */
+  --strongblue: #0056b3; /* Azul fuerte */
+}

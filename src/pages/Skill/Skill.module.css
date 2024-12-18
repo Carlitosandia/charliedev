@@ -1,0 +1,25 @@
+.skillcontainer{
+    display: grid;
+    grid-template-columns: 0.40fr 1fr;
+    gap: 10rem;
+    margin: 2rem 2rem;
+}
+
+.ulcapabilites{
+    display: flex; /* Activa el modelo Flexbox */
+    flex-direction: column; /* Cambia la dirección a columna */
+    list-style-type: none; /* Opcional: elimina los puntos de la lista */
+    padding: 0; /* Opcional: elimina el padding por defecto */
+}
+
+.skillinfo picture {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.skillinfo img {
+    width: 20%;
+    height: 50%;
+}

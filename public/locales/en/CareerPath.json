@@ -1,0 +1,26 @@
+{
+    "career path": "Career Path",
+    "uaq university": "Autonomous University of Querétaro",
+    "uaq info" : [
+        "I am currently a student at the Autonomous University of Querétaro, pursuing a degree in Software Engineering. Throughout my academic journey, I have gained knowledge in key areas such as software development, databases, computer networks, and operating systems, among other essential topics for my professional growth.",
+        "I have had the opportunity to participate in Hackathons hosted by the university, where I worked on projects under tight deadlines. These experiences allowed me to enhance my problem-solving skills, improve time management, and foster teamwork in high-pressure environments.",
+        "In addition, I have developed various practical projects, applying the knowledge acquired in the classroom to real-world challenges, strengthening my technical and analytical abilities. I have also complemented my education by completing specialized courses, such as:",
+        "Oracle Database, where I learned to design and manage robust database systems.",
+        "API Development with Node.js and JavaScript, which provided me with experience in building efficient and scalable backend services.",
+        "These academic and practical experiences have been instrumental in developing my technical skills, improving my critical thinking, and preparing me to contribute effectively to professional software industry projects."
+    ],
+    "hackathon": "Hackathon",
+    "hackathon info": [
+        "A Hackathon is an event where individuals from various backgrounds come together to solve problems using technology. During these competitions, participants form teams and collaborate to develop a project within a limited timeframe, typically between 24 and 48 hours.",
+        "Hackathons are an excellent opportunity to learn new technologies, enhance problem-solving skills, and connect with like-minded individuals.",
+        "I had the opportunity to participate in the Troyano Hackathon 2021 and 2022, where I tested my abilities to collaborate and deliver projects within tight deadlines while maintaining high quality. This experience allowed me to strengthen my communication skills within the team, optimize development processes under pressure, and learn from the guidance of experts and the support of my teammates.",
+        "Participating in these events not only helped me grow professionally but also fostered my creativity and my ability to adapt to challenges in dynamic environments."
+    ],
+    "usc university": "University of Santiago de Compostela",
+    "usc info":[
+        "I participated in an academic exchange program at the University of Santiago de Compostela, where I pursued studies in Computer Engineering. During my time there, I had the opportunity to delve into key areas such as IT Project Management, Search Engines, Ubiquitous Computing, and other cutting-edge topics.",
+        "This experience not only expanded my knowledge beyond what I had learned at my home university but also allowed me to work in an entirely different academic and professional context. Adapting to new methodologies and work practices from other cultures enhanced my adaptability, problem-solving, and teamwork skills.",
+        "Additionally, living and collaborating with individuals who did not speak my native language (Spanish) gave me the chance to communicate consistently in English, significantly strengthening my language proficiency and my ability to effectively interact in a multicultural environment.",
+        "This exchange program was an enriching experience that enabled me to develop both technical and personal skills, preparing me to face challenges in globalized environments."
+    ]
+}

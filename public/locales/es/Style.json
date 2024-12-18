@@ -1,0 +1,61 @@
+{
+    "Style" :[
+        {
+            "id": 1,
+            "type": "Style",
+            "name" : "CSS",
+            "description" : "CSS es un lenguaje de estilos utilizado para controlar la apariencia y el diseño de documentos web. Se utiliza junto con HTML para definir cómo se presentan los elementos en la pantalla, en el papel o en otros medios.",
+            "youcanbuild" : "Con CSS, puedes:",
+            "capabilities" : [
+                "Cambiar colores, fuentes, márgenes, bordes y otros estilos visuales.",
+                "Definir diseños responsivos para adaptarse a diferentes dispositivos y tamaños de pantalla.",
+                "Crear animaciones y transiciones para mejorar la interacción visual.",
+                "Controlar el posicionamiento de los elementos con modelos de cajas, flexbox o grid.",
+                "Aplicar estilos a elementos específicos usando selectores como clases, IDs o combinaciones avanzadas.",
+                "Personalizar el diseño de pseudo-elementos y estados como :hover, :before, y :after.",
+                "Utilizar variables y funciones modernas para mantener consistencia y reutilización de estilos.",
+                "Integrar efectos avanzados como sombras, gradientes y filtros."
+            ],
+            "url" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "image" : "/images/styles/css"
+        },
+        {
+            "id": 2,
+            "type": "Style",
+            "name" : "Sass",
+            "description" : "Sass es un preprocesador de CSS que extiende sus capacidades, permitiendo escribir estilos de manera más estructurada, reutilizable y eficiente. Una vez compilado, genera CSS estándar que los navegadores pueden interpretar.",
+            "youcanbuild" : "Con Sass, puedes:",
+            "capabilities" : [
+                "Usar variables para almacenar valores reutilizables como colores, tamaños o fuentes.",
+                "Crear anidaciones para estructurar estilos de forma más clara y mantener la jerarquía del HTML.",
+                "Definir mixins para reutilizar bloques de código con parámetros personalizables.",
+                "Utilizar funciones y operadores para realizar cálculos dinámicos (por ejemplo, ajustar colores, tamaños o proporciones).",
+                "Organizar tu código en múltiples archivos parciales y combinarlos en un único archivo CSS compilado.",
+                "Implementar bucles y condicionales para generar estilos de manera dinámica y repetitiva.",
+                "Aprovechar la herencia con @extend para evitar duplicar estilos similares.",
+                "Optimizar el mantenimiento de proyectos grandes con una estructura modular y escalable."
+            ],
+            "url" : "https://sass-lang.com/",
+            "image" : "/images/styles/sass"
+        },
+        {
+            "id": 3,
+            "type": "Style",
+            "name" : "Tailwind CSS",
+            "description" : "Tailwind CSS es un framework de utilidades CSS que permite construir interfaces personalizables y rápidas usando clases predefinidas. En lugar de escribir estilos personalizados, utiliza clases que aplican estilos directamente a los elementos HTML.",
+            "youcanbuild" : "Con Tailwind CSS, puedes:",
+            "capabilities" : [
+                "Diseñar rápidamente interfaces utilizando clases predefinidas como bg-blue-500, text-center o p-4.",
+                "Personalizar completamente el diseño utilizando un archivo de configuración que soporta extensiones como colores, fuentes y tamaños.",
+                "Implementar diseños responsivos fácilmente con clases como sm:, md:, lg:, y xl:.",
+                "Crear componentes reutilizables combinando clases en tu HTML o utilizando herramientas como @apply en archivos CSS.",
+                "Aplicar estilos condicionales con modificadores como hover:, focus:, o active: para estados interactivos.",
+                "Trabajar de manera eficiente con un diseño 'mobile-first' incorporado.",
+                "Generar archivos CSS optimizados eliminando estilos no utilizados (tree-shaking) al construir proyectos para producción.",
+                "Integrar con frameworks modernos como React, Vue, o Next.js para agilizar el desarrollo."
+            ],
+            "url" : "https://tailwindcss.com/",
+            "image" : "/images/styles/tailwind"
+        }
+    ]
+}

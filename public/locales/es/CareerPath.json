@@ -1,0 +1,26 @@
+{
+    "career path": "Trayectoria profesional",
+    "uaq university": "Universidad Autónoma de Querétaro",
+    "uaq info" : [
+        "Actualmente soy estudiante de la Universidad Autónoma de Querétaro, donde curso la carrera de Ingeniería de Software. Durante mi formación académica, he adquirido conocimientos en áreas clave como el desarrollo de software, bases de datos, redes de comunicación y sistemas operativos, entre otros temas fundamentales para mi crecimiento profesional.",
+        "He tenido la oportunidad de participar en Hackatones organizados por la universidad, donde trabajé en proyectos con un tiempo limitado. Estas experiencias me permitieron fortalecer mis habilidades de resolución de problemas, optimizar la gestión del tiempo y fomentar el trabajo en equipo en entornos de alta presión.",
+        "Además, he desarrollado diversos proyectos prácticos, aplicando los conocimientos adquiridos en el aula y enfrentándome a desafíos reales que han fortalecido mi capacidad técnica y analítica. Complementé mi aprendizaje mediante cursos especializados como:",
+        "Bases de Datos de Oracle, donde aprendí a diseñar y administrar sistemas de bases de datos robustos.",
+        "Desarrollo de APIs con Node.js y JavaScript, que me permitió adquirir experiencia en la creación de servicios backend eficientes y escalables.",
+        "Estas experiencias académicas y prácticas han sido fundamentales para desarrollar mis competencias técnicas, mejorar mi pensamiento crítico y prepararme para contribuir en proyectos profesionales en la industria del software."
+    ],
+    "hackathon": "Hackathon",
+    "hackathon info": [
+        "Un Hackatón es un evento donde personas con diversos perfiles se reúnen para resolver problemas utilizando tecnología. Durante estas competencias, los participantes forman equipos y colaboran para desarrollar un proyecto en un tiempo limitado, generalmente entre 24 y 48 horas.",
+        "Los Hackatones representan una excelente oportunidad para aprender nuevas tecnologías, mejorar habilidades de resolución de problemas y conectar con personas que comparten intereses similares.",
+        "Tuve la oportunidad de participar en el Hackatón Troyano 2021 y 2022, donde puse a prueba mis capacidades de colaboración y entrega de proyectos en tiempos reducidos sin comprometer la calidad del trabajo. Esta experiencia me permitió fortalecer mis habilidades de comunicación efectiva dentro del equipo, optimizar procesos de desarrollo bajo presión y aprender de la guía de expertos y el apoyo de mis compañeros.",
+        "Participar en estos eventos no solo me ayudó a crecer profesionalmente, sino que también fomentó mi creatividad y mi capacidad de adaptarme a desafíos en entornos dinámicos."
+    ],
+    "usc university": "Universidad de Santiago de Compostela",
+    "usc info":[
+        "Realicé un programa de intercambio académico en la Universidad de Santiago de Compostela, donde cursé estudios en Ingeniería Informática. Durante mi estancia, tuve la oportunidad de profundizar en áreas clave como Gestión de Proyectos de TI, Motores de Búsqueda, Computación Ubicua y otras disciplinas innovadoras.",
+        "Esta experiencia no solo amplió mis conocimientos más allá de lo aprendido en mi universidad de origen, sino que también me permitió trabajar en un contexto académico y profesional completamente distinto. Adaptarme a nuevas metodologías y formas de trabajo propias de otras culturas fortaleció mis habilidades de adaptación, resolución de problemas y trabajo en equipo.",
+        "Además, convivir y colaborar con personas que no hablaban mi lengua nativa (español) me brindó la oportunidad de comunicarme constantemente en inglés, lo que mejoró significativamente mis habilidades lingüísticas y mi capacidad para interactuar de manera efectiva en un entorno multicultural.",
+        "Este intercambio fue una experiencia enriquecedora que me ayudó a desarrollar competencias tanto técnicas como personales, preparándome para enfrentar desafíos en entornos globalizados."
+    ]
+}

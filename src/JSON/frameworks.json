@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "type": "Framework",
+        "name": "Flask",
+        "url": "https://flask.palletsprojects.com/",
+        "image": "/images/frameworks/flask"
+    },
+    {
+        "id": 2,
+        "type": "Framework",
+        "name": "Express",
+        "url": "https://expressjs.com/",
+        "image": "/images/frameworks/express"
+    },
+    {
+        "id": 3,
+        "type": "Framework",
+        "name": "Nest.js",
+        "url": "https://nestjs.com/",
+        "image": "/images/frameworks/nest"
+    },
+    {
+        "id": 4,
+        "type": "Framework",
+        "name": "React Native",
+        "url": "https://reactnative.dev/",
+        "image": "/images/frameworks/reactnative"
+    },
+    {
+        "id": 5,
+        "type": "Framework",
+        "name" : "Flutter",
+        "url" : "https://flutter.dev/",
+        "image" : "/images/frameworks/flutter"
+    },
+    {
+        "id": 6,
+        "type": "Framework",
+        "name" : "Django",
+        "url" : "https://www.djangoproject.com/",
+        "image" : "/images/frameworks/django"
+    }
+]

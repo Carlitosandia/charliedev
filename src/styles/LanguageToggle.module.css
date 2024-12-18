@@ -1,0 +1,65 @@
+/* Contenedor principal */
+.togglecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espacio entre los elementos */
+  margin: 20px;
+}
+
+/* Etiquetas de idioma ("EN" y "ES") */
+.languagelabel {
+  font-size: 14px;
+  font-weight: bold;
+  user-select: none; /* Evita seleccionar el texto */
+}
+
+/* Label del toggle */
+.togglelabel {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Input oculto */
+.toggleinput {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider (fondo del toggle) */
+.toggleslider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 30px;
+  transition: background-color 0.4s;
+}
+
+/* La bolita del slider */
+.toggleslider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 7px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+
+/* Estado activo del toggle */
+.toggleinput:checked + .toggleslider {
+  background-color: var(--blue);
+}
+
+.toggleinput:checked + .toggleslider:before {
+  transform: translateX(26px);
+}

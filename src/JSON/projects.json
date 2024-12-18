@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "AI Diseases",
+        "type": "Project",
+        "image": "/images/projects/mainPageIa",
+        "ProgrammingLanguage": [1, 4],
+        "Technology": [1, 4, 6, 7, 8, 13, 14],
+        "Cloud":[],
+        "Framework": [1],
+        "Style":[1],
+        "Database": []
+    },
+    {
+        "id": 2,
+        "name": "Search engine",
+        "type": "Project",
+        "image": "/images/projects/mainPageSearchEngine",
+        "ProgrammingLanguage": [4],
+        "Technology": [5],
+        "Cloud":[],
+        "Framework": [],
+        "Style":[],
+        "Database": []
+    },
+    {
+        "id":3,
+        "name": "Socket Chat",
+        "type": "Project",
+        "image": "/images/projects/mainPageSocketChat",
+        "ProgrammingLanguage": [2, 5],
+        "Technology": [],
+        "Cloud":[],
+        "Framework": [],
+        "Style":[],
+        "Database": []
+    },
+    {
+        "id": 4,
+        "name": "Hackathon Pocket Lawyer",
+        "type": "Project",
+        "image": "/images/projects/mainPageHackathonPocketLawyer",
+        "ProgrammingLanguage": [3, 1],
+        "Technology": [4, 6, 7, 11, 13],
+        "Cloud":[],
+        "Framework": [],
+        "Style":[2],
+        "Database": [2]
+    },
+    {
+        "id": 5,
+        "name": "Let It Shine",
+        "type": "Project",
+        "image": "/images/projects/mainPageLetItShine",
+        "ProgrammingLanguage": [3, 1],
+        "Technology": [4, 6, 7, 8, 11, 13],
+        "Cloud":[],
+        "Framework": [],
+        "Style":[2],
+        "Database": [5]
+    },
+    {
+        "id": 6,
+        "name": "Java Store",
+        "type": "Project",
+        "image": "/images/projects/mainPageJavaStore",
+        "ProgrammingLanguage": [2],
+        "Technology": [],
+        "Cloud":[],
+        "Framework": [],
+        "Style":[],
+        "Database": []
+    },
+    {
+        "id": 7,
+        "name": "School System",
+        "type": "Project",
+        "image": "/images/projects/mainPageSchoolSystem",
+        "ProgrammingLanguage": [3, 1],
+        "Technology": [4, 6, 7, 13],
+        "Cloud":[],
+        "Framework": [],
+        "Style":[2],
+        "Database": [2]
+    },
+    {
+        "id": 8,
+        "name": "NONE Carwash",
+        "type": "Project",
+        "image": "/images/projects/mainPageNone",
+        "programminglanguages": [3, 1],
+        "technologies": [4, 6, 7, 13],
+        "clouds":[],
+        "frameworks": [],
+        "styles":[2],
+        "databases": [2]
+    },
+    {
+        "id":9,
+        "name": "Pursued By Darkness",
+        "type": "Project",
+        "image": "/images/projects/PursuedByDarkness",
+        "programminglanguages": [6],
+        "technologies": [6,7,9],
+        "clouds":[],
+        "frameworks": [],
+        "styles":[],
+        "databases": []
+    }
+]

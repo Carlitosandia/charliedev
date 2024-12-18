@@ -1,0 +1,45 @@
+.projectscontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;    
+}
+
+.title{
+    text-align: center;
+}
+
+.shortdescription{
+    margin: 0rem 2rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.photocontainer{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.photocontainer picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photocontainer img{
+    max-width: 50%;
+    max-height: 50%;
+    border: 1px solid var(--grey);
+}
+
+.btnmoreinfo{
+    background-color: var(--strongblue);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}

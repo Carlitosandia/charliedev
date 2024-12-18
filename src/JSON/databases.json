@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "type": "Database",
+        "name": "MongoDB",
+        "url": "https://www.mongodb.com/",
+        "image": "/images/databases/mongodb"
+    },
+    {
+        "id": 2,
+        "type": "Database",
+        "name": "MySQL",
+        "url": "https://www.mysql.com/",
+        "image": "/images/databases/mysql"
+    },
+    {
+        "id": 3,
+        "type": "Database",
+        "name": "PostgreSQL",
+        "url": "https://www.postgresql.org/",
+        "image": "/images/databases/postgresql"
+    },
+    {
+        "id": 4,
+        "type": "Database",
+        "name": "Firebase",
+        "url": "https://firebase.google.com/",
+        "image": "/images/databases/firebase"
+    },
+    {
+        "id": 5,
+        "type": "Database",
+        "name": "MariaDB",
+        "url": "https://mariadb.org/",
+        "image": "/images/databases/mariadb"
+    },
+    {
+        "id": 6,
+        "type": "Database",
+        "name": "Oracle",
+        "url": "https://www.oracle.com/database/",
+        "image": "/images/databases/oracle"
+    }
+]

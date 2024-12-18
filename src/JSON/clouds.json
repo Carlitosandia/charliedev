@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "type": "Cloud",
+        "name" : "Amazon Web Services",
+        "url" : "https://aws.amazon.com/",
+        "image" : "/images/clouds/aws"
+    },
+    {
+        "id": 2,
+        "type": "Cloud",
+        "name" : "Google Cloud",
+        "url" : "https://cloud.google.com/",
+        "image" : "/images/clouds/googlecloud"
+    },
+    {
+        "id": 3,
+        "type": "Cloud",
+        "name" : "Vercel",
+        "url" : "https://vercel.com/",
+        "image" : "/images/clouds/vercel"
+    }
+]

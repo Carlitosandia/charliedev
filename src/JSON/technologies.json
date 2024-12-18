@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "type": "Technology",
+        "name": "React",
+        "url": "https://reactjs.org/",
+        "image": "/images/technologies/react"
+    },
+    {
+        "id": 2,
+        "type": "Technology",
+        "name": "Node.js",
+        "url": "https://nodejs.org/en/about",
+        "image": "/images/technologies/nodejs"
+    },
+    {
+        "id": 3,
+        "type": "Technology",
+        "name" : "Docker",
+        "url" : "https://www.docker.com/",
+        "image" : "/images/technologies/docker"
+    },
+    {
+        "id": 4,
+        "type": "Technology",
+        "name": "HTML 5",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+        "image": "/images/technologies/html"
+    },
+    {
+        "id": 5,
+        "type": "Technology",
+        "name" : "Jupyter Notebook",
+        "url" : "https://jupyter.org/",
+        "image" : "/images/technologies/jupyter"
+    },
+    {
+        "id": 6,
+        "type": "Technology",
+        "name" : "Git",
+        "url" : "https://git-scm.com/",
+        "image" : "/images/technologies/git"
+    },
+    {
+        "id": 7,
+        "type": "Technology",
+        "name" : "GitHub",
+        "url" : "https://github.com",
+        "image" : "/images/technologies/github"
+    },
+    {
+        "id": 8,
+        "type": "Technology",
+        "name" : "Postman",
+        "url" : "https://www.postman.com/",
+        "image" : "/images/technologies/postman"
+    },
+    {
+        "id": 9,
+        "type": "Technology",
+        "name" : "Unreal Engine",
+        "url" : "https://www.unrealengine.com/",
+        "image" : "/images/technologies/unreal"
+    },
+    {
+        "id": 10,
+        "type": "Technology",
+        "name" : "Vite",
+        "url" : "https://vitejs.dev/",
+        "image" : "/images/technologies/vite"
+    },
+    {
+        "id": 11,
+        "type": "Technology",
+        "name" : "Composer",
+        "url" : "https://getcomposer.org/",
+        "image" : "/images/technologies/composer"
+    },
+    {
+        "id": 12,
+        "type": "Technology",
+        "name" : "Selenium",
+        "url" : "https://www.selenium.dev/",
+        "image" : "/images/technologies/selenium"
+    },
+    {
+        "id": 13,
+        "type": "Technology",
+        "name" : "NPM",
+        "url" : "https://www.npmjs.com/",
+        "image" : "/images/technologies/npm"                                                                                                                                      
+    },
+    {
+        "id": 14,
+        "type": "Technology",
+        "name": "Axios",
+        "url": "https://axios-http.com/",
+        "image" : "/images/technologies/axios"
+    }
+]

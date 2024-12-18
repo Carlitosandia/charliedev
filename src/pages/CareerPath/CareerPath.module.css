@@ -1,0 +1,37 @@
+.title{
+    text-align: center;
+}
+
+.pathcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.path{
+    display: flex;
+    flex-direction: row;
+}
+
+.infocontainer{
+    margin: 0 2rem;
+
+}
+
+.photocontainer{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.photocontainer picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photocontainer img{
+    max-width: 50%; /* Ajusta para evitar desbordes */
+    max-height: 50%; /* Mantiene las proporciones */
+}
