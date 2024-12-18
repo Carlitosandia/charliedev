@@ -3,10 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm cache clean --force
-        - rm -rf node_modules
-        - rm -rf dist
-        - npm install
+        - npm run build
+        - cp -r public/* dist/ # Fuerza la copia de public a dist
     build:
       commands:
         - npm run build
