@@ -34,3 +34,5 @@ terraform.tfstate.backup
 package-lock.json
 
 dist/
+.terraform/
+.terraform.lock.hcl
