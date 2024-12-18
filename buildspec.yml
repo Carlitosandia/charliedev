@@ -11,6 +11,6 @@ frontend:
     baseDirectory: dist
     files:
       - '**/*'
-  cache:
+  cache:  
     paths:
       - node_modules/**/*  
