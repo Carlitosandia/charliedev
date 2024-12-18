@@ -3,9 +3,17 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  server: { https: true },
   plugins: [react()],
-  base: '/', // Asegura rutas desde la raíz
+  base: './index.html',
   build: {
-    outDir: 'dist', // Salida del build
+    input: {
+      app: './index.html', // default
+    },
   },
+  resolve: {
+    alias: {
+      './runtimeConfig': './runtimeConfig.browser',
+    }
+  }
 });

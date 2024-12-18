@@ -3,11 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm run build
-        - cp -r public/* dist/ # Fuerza la copia de public a dist
+        - npm install
     build:
       commands:
-        - npm run build
+        - npm run build --prod
   artifacts:
     baseDirectory: dist
     files:
