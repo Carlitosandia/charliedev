@@ -5,6 +5,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import enCareerPath from './assets/locales/en/CareerPath.json';
 import enCloud from './assets/locales/en/Cloud.json';
 import enCommons from './assets/locales/en/Commons.json';
+import enContact from './assets/locales/en/Contact.json';
 import enDatabase from './assets/locales/en/Database.json';
 import enFooter from './assets/locales/en/Footer.json';
 import enFramework from './assets/locales/en/Framework.json';
@@ -19,6 +20,7 @@ import enTechnology from './assets/locales/en/Technology.json';
 import esCareerPath from './assets/locales/es/CareerPath.json';
 import esCloud from './assets/locales/es/Cloud.json';
 import esCommons from './assets/locales/es/Commons.json';
+import esContact from './assets/locales/es/Contact.json';
 import esDatabase from './assets/locales/es/Database.json';
 import esFooter from './assets/locales/es/Footer.json';
 import esFramework from './assets/locales/es/Framework.json';
@@ -29,6 +31,7 @@ import esProjects from './assets/locales/es/Projects.json';
 import esSkills from './assets/locales/es/Skills.json';
 import esStyle from './assets/locales/es/Style.json';
 import esTechnology from './assets/locales/es/Technology.json';
+
 
 i18n
   .use(LanguageDetector) // Detecta idioma automáticamente
@@ -41,6 +44,7 @@ i18n
         CareerPath: enCareerPath,
         Cloud: enCloud,
         Commons: enCommons,
+        Contact: enContact,
         Database: enDatabase,
         Footer: enFooter,
         Framework: enFramework,
@@ -56,6 +60,7 @@ i18n
         CareerPath: esCareerPath,
         Cloud: esCloud,
         Commons: esCommons,
+        Contact: esContact,
         Database: esDatabase,
         Footer: esFooter,
         Framework: esFramework,

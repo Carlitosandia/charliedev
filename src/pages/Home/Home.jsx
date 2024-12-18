@@ -52,7 +52,6 @@ const Home = () => {
 
     const handleProjectSelectChange = (e) => {
         setSelectedProject(e.target.value);
-        console.log(selectedProject);
     }
 
     return (

@@ -1,0 +1,10 @@
+/* Layout.module.css */
+.layout {
+    display: flex;
+    flex-direction: column; /* Coloca los hijos en columna */
+    min-height: 100vh; /* Ocupa al menos toda la altura de la pantalla */
+}
+  
+.containerchildren {
+    flex-grow: 1; /* Permite que el contenido principal ocupe el espacio restante */
+}

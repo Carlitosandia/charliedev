@@ -13,7 +13,7 @@ const ProjectInfoBox = ({ technology }) => {
     }
     
     const filteredProjects = findProjectsByTechnology(projectsdata, technology);
-    console.log(filteredProjects);
+
     return(
         <div className={Styles.boxcontainer}>
             <h2>{t('titleprojects')}</h2>
