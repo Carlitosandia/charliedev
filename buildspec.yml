@@ -3,12 +3,15 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm cache clean --force
+        - rm -rf node_modules
+        - rm -rf dist
         - npm install
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: build
+    baseDirectory: dist
     files:
       - '**/*'
   cache:  
