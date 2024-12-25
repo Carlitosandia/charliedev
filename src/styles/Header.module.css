@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
+    padding: 0;
 }
 
 .headercontainer li{
@@ -31,7 +32,8 @@ header h1 {
 .headercontainer a {
     color: white;
     text-decoration: none;
-    margin: 2rem 2rem;
+    margin: 2rem 1rem;
+    justify-content: center;
 }
 
 a {
@@ -40,4 +42,68 @@ a {
 
 .light{
     font-weight: 100;
+}
+
+.mobilemenu {
+    visibility: hidden;
+    display: none;
+}
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .mobilemenu {
+        display: block;
+        visibility: visible;
+    }
+    .mobilemenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mobilemenu img {
+        width: 30px;
+        height: 30px;
+    }
+    .headercontainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+    
+    .nav.closed {
+        display: none;
+    }
+
+    .nav.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navcontainer.open{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav ul{
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .nav li{
+        margin: 0.3rem 0;
+        padding: 0.7rem 0;
+    }
 }

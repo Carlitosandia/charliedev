@@ -1,15 +1,25 @@
-.skillcontainer{
+.skillcontainer {
     display: grid;
     grid-template-columns: 0.40fr 1fr;
+    grid-template-areas: 
+        "projectinfobox skillinfo";
     gap: 10rem;
     margin: 2rem 2rem;
 }
 
-.ulcapabilites{
+.skillinfo {
+    grid-area: skillinfo;
+}
+
+.projectinfobox {
+    grid-area: projectinfobox;
+}
+
+.ulcapabilities {
     display: flex; /* Activa el modelo Flexbox */
     flex-direction: column; /* Cambia la dirección a columna */
-    list-style-type: none; /* Opcional: elimina los puntos de la lista */
-    padding: 0; /* Opcional: elimina el padding por defecto */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
 }
 
 .skillinfo picture {
@@ -22,4 +32,24 @@
 .skillinfo img {
     width: 20%;
     height: 50%;
+}
+
+@media (max-width: 768px) {
+    .skillcontainer {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "skillinfo"
+            "projectinfobox";
+        gap: 2rem;
+    }
+
+    .skillinfo picture {
+        max-width: 65%;
+        max-height: 100%;
+    }
+
+    .skillinfo img {
+        width: 50%; /* Ajusta el tamaño para móviles */
+        height: auto;
+    }
 }

@@ -43,7 +43,7 @@ const Skill = () => {
     return (
         <Layout>
             <div className={Styles.skillcontainer}>
-                <ProjectInfoBox technology={result}/>
+                <ProjectInfoBox technology={result} className={Styles.projectinfobox} />
                 <div className={Styles.skillinfo}>
                     <h1>{skill.name}</h1>
                     <p>{skill.description}</p>
@@ -60,7 +60,6 @@ const Skill = () => {
                     </ul>
                 </div>
             </div>
-            
         </Layout>
     );
 }

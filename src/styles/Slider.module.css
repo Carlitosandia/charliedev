@@ -122,3 +122,40 @@
     flex-direction: column;
     margin-top: 1rem;
 }
+
+@media (max-width: 805px) {
+    .navbtn:first-of-type {
+        left: 10px; /* Posición para la flecha izquierda */
+    }
+    
+    .navbtn:last-of-type {
+        right: 10px; /* Posición para la flecha derecha */
+    }
+    .btnLink{
+        padding: 0.5rem 3rem;
+    }
+    .slide.prev {
+        opacity: 0.6;
+        transform: scale(0.9) translateX(-150%);
+        z-index: 1;
+        display: none;
+    }
+    
+    .slide.next {
+        opacity: 0.6;
+        transform: scale(0.9) translateX(150%);
+        z-index: 1;
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1145px){
+    .navbtn:first-of-type { 
+        left: 10px; /* Posición para la flecha izquierda */
+    }
+    
+    .navbtn:last-of-type {
+        right: 10px; /* Posición para la flecha derecha */
+    }
+}

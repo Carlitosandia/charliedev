@@ -43,3 +43,22 @@
     font-size: 1.1rem;
     margin-top: 1rem;
 }
+
+.btnmoreinfo:hover{
+    background-color: var(--blue);
+}
+
+@media (max-width: 768px) {
+    .projectscontainer{
+        grid-template-columns: 1fr;
+    }
+    .photocontainer img{
+        max-width: 90%;
+        max-height: 100%;
+        margin: 1rem 1rem;
+    }
+    .btnmoreinfo{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}

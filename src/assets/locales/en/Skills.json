@@ -1,10 +1,75 @@
 {
-    "skills" : "Skills",
-    "find out" : "Find out each skill and how it is used to help you in your projects, just as they help me and other developers create our projects.",
-    "programminglanguages" : "Programming languages",
-    "databases" : "Databases",
-    "frameworks" : "Frameworks",
-    "cloudservices" : "Cloud services",
-    "technologies" : "Technologies",
-    "styles" : "Styles"
+    "skills": "Skills",
+    "find out": "Discover each skill and how it is used to help you with your projects, just as it helps me and other developers create our projects.",
+    "programminglanguages": "Programming Languages",
+    "programminglanguagesdescription": [
+        "Programming languages are essential tools for communicating with systems, similar to how we use different languages to communicate in other countries. Just like learning a local language makes it easier to interact in a foreign place, learning a programming language allows us to interact with systems and technologies.",
+        "Each language is designed for specific purposes: some focus on web development, others on APIs, artificial intelligence, or more. However, this doesn't mean they are limited to a single function; many languages can tackle various tasks. The choice of language depends on the project and your preferences, and you're not limited to learning just one; you can explore several throughout your career.",
+        "The most important thing in programming is understanding logic, which is universal and transcends languages. Just as the logic behind finding a restaurant or a flight is similar in any country, the logic for solving problems in programming is comparable regardless of the language used. Understanding this logic will help you create robust programs and diagnose errors when necessary."
+    ],
+    "databases": "Databases",
+    "databasesdescription": [
+        "Databases are essential tools for efficiently storing and managing information. While simple means like notepads or spreadsheets can store data, they are not suitable for systems handling large volumes of information, where data is as valuable as gold. These means do not offer scalability, consistency, or tools for reliable data management.",
+        "For this, database management systems (DBMS) such as MySQL, Oracle Database, or PostgreSQL are used, allowing the four fundamental data operations: Create, Read, Update, and Delete (CRUD). These operations are essential for any system. For example, creating a user profile uses a Create operation; displaying their information employs Read; modifying profile data uses Update; and deleting it resorts to Delete. These functions ensure efficient data management.",
+        "In relational databases, data is stored in tables organized into rows and columns, similar to a spreadsheet but much more robust. These tables can relate to each other using primary keys and foreign keys, allowing efficiently structured related data. For example, in an online store, one table can contain user information and another the products purchased. These tables are related to identify which products each user has purchased, using unique keys.",
+        "Communication with these databases is done through SQL, a query language specifically designed to perform CRUD operations and more advanced ones, such as adding indexes or optimizing queries. SQL allows working with large volumes of data quickly and organized, which would not be possible with spreadsheets.",
+        "On the other hand, non-relational databases (NoSQL) do not use tables but formats like JSON (JavaScript Object Notation) to store information. JSON organizes data in key-value format, facilitating its management in flexible and dynamic structures. These databases are ideal when strict relationships between data are not needed. For example, in a streaming platform like Netflix, user and movie data could be managed independently if constant relationships are unnecessary. This improves query speed in certain scenarios.",
+        "Although NoSQL does not use SQL as a query language, it still supports CRUD operations, but these are performed through code in languages like JavaScript or Python. However, not all NoSQL databases are the same; some (like MongoDB) allow limited relationship management, while others (like Firebase) are designed exclusively for unrelated data.",
+        "Both types of databases have their advantages and disadvantages. Relational databases are ideal for systems requiring well-structured data and complex relationships, such as banking or e-commerce applications. NoSQL databases, on the other hand, are better suited for applications with dynamic data, like social networks or messaging apps.",
+        "In some cases, a combination of both technologies (hybrid databases) may be the best option. For example, a system could use a relational database to manage users and transactions, and a NoSQL database to store activity logs or personalized preferences.",
+        "In summary, the choice of database type depends on the project. With knowledge of SQL and a programming language like JavaScript, you can effectively work with both technologies, ensuring data is well-organized, secure, and accessible."
+    ],
+    "frameworks": "Frameworks",
+    "frameworksdescription": [
+        "When talking about frameworks, it's important to understand that they are not programming languages but tools designed to facilitate application development by following certain rules and structures. Frameworks help developers build competent and efficient systems by simplifying common tasks.",
+        "Before delving into frameworks, it is essential to differentiate the frontend from the backend. The frontend is the visual part of the system, what users see and interact with, like a button to change the language of a web page. On the other hand, the backend is the logic behind the scenes that processes user requests and performs actions, such as changing the page's language. In short, the frontend is the visible part, and the backend is the functional part.",
+        "What is an API?",
+        "An API (Application Programming Interface) is the means by which one system communicates with another to serve data. For example, when you send a message on WhatsApp, your phone sends a JSON with the message information to WhatsApp servers, which then send it to the recipient. An API acts as an intermediary between the client (frontend) and the server (backend), receiving requests and returning responses.",
+        "For example, in a restaurant, the customer (user) places an order with the waiter (API), who communicates it to the chef (backend). The chef prepares the food, and the waiter delivers it to the customer. Similarly, an API handles requests and responses in a system.",
+        "Developing an API from scratch can be complex as it involves handling HTTP requests, managing errors, and defining routes. This is where frameworks like Express are helpful. Express simplifies API creation by providing predefined tools to handle requests, routes, and errors. For example, a route like /login in Express defines what the system should do when the user tries to log in.",
+        "Frameworks are not limited to API development. There are frameworks for the frontend (like React Native or Angular) and the backend (like Django or Laravel), designed to simplify specific tasks such as creating visual interfaces or handling server logic. Choosing the right framework depends on the type of application you want to develop."
+    ],
+    "cloudservices": "Cloud Services",
+    "cloudservicesdescription": [
+        "Cloud services are offered by companies like Google, Amazon, and Microsoft to facilitate project development and hosting. When starting a project, you typically work locally, which means the system can only be accessed from the developer's machine. For example, when developing a website locally, it is accessed via a URL like http://localhost:3000. Here, 'localhost' is a special IP address (127.0.0.1) that points to your machine.",
+        "Although working on localhost is useful for development, it is not feasible for sharing the site with other users. To make it accessible, you could use your public IP address and allow external connections. However, hosting a site this way has many limitations. For example:",
+        "Your machine must be turned on and available 24/7.",
+        "There are risks of data loss in case of hardware failures.",
+        "You could be vulnerable to attacks like DDoS.",
+        "You wouldn't have a robust monitoring or security system.",
+        "Additionally, you should understand the role of domains. When you access sites like Facebook or Instagram, you don't directly enter an IP address but a domain name (like facebook.com). These names are easier to remember and automatically translate into IP addresses using a system called DNS (Domain Name System).",
+        "To overcome local hosting limitations, cloud services were created. These platforms allow you to host your system on specialized servers that offer:",
+        "Scalability: Resources increase or decrease according to demand.",
+        "High availability: Your system will be available 24/7.",
+        "Protection: Defense against cyberattacks like DDoS.",
+        "Storage: Space to save databases, files, images, and more.",
+        "Automation: Tools like Lambda functions or cron jobs to execute scheduled tasks.",
+        "For example, when you upload a photo to Instagram, it is stored on cloud servers from AWS or Google Cloud. Companies like Apple also use these services for some of their projects.",
+        "Each provider (AWS, Google Cloud, Microsoft Azure) offers a variety of services, from storage to artificial intelligence. The choice will depend on the specific needs of your project, such as traffic volume, the type of data you manage, and the required security levels. Carefully analyzing the available options will help you configure an adequate infrastructure to ensure your system is reliable, fast, and secure."
+    ],
+    "technologies": "Technologies",
+    "technologiesdescription": [
+        "Technologies are tools designed to solve common problems and optimize processes in software development. Over time, developers have created various technologies that facilitate specific tasks and improve efficiency in projects. Below, we explore some of the most used:",
+        "Docker is a popular tool that solves compatibility issues by packaging applications and their dependencies into containers. A common problem among developers is that a project works correctly on their machine but fails on others due to differences in libraries or configurations. With Docker, you can create an image of your project that includes everything needed to run it, ensuring it behaves the same in any environment. This eliminates dependency conflicts and simplifies application deployment.",
+        "Git is a version control system that allows developers to manage code changes in an organized way. Instead of creating multiple files with names like 'Final Submission,' 'Final Submission 2,' 'Final Submission Final,' 'Good Final Submission,' Git records changes in a single place and allows you to revert to previous versions if needed. Meanwhile, GitHub is a platform that enables collaboration on projects by sharing repositories in the cloud. Teams can simultaneously work on different parts of the project using branches, merge changes, and maintain a clear history of modifications, improving coordination and avoiding conflicts.",
+        "Unreal Engine is a graphics engine widely used in game development. It offers a preconfigured environment that includes advanced graphics, physics, and development tools, allowing creators to focus on game design without needing to build a graphics engine from scratch. Additionally, Unreal Engine is used in other fields, such as industrial simulations and film production, thanks to its ability to render high-quality graphics in real-time.",
+        "Postman is an essential tool for backend developers as it allows API testing without waiting for the frontend to be fully developed. With Postman, you can make HTTP requests (GET, POST, PUT, DELETE), verify responses, and automate tests. This facilitates functionality validation and accelerates workflow in teams developing API-based applications."
+    ],
+    "styles": "Styles",
+    "stylesdescription": [
+        "Styles bring life and color to websites and are primarily implemented through CSS (Cascading Style Sheets). CSS allows defining visual properties for HTML elements, such as colors, borders, backgrounds, sizes, and positions, transforming a basic structure into an attractive and functional interface.",
+        "In HTML, elements can be customized using classes. For example, if you have a <div> with the class container, you can apply styles from a CSS file:",
+        "<div class='container'></div>",
+        "In the CSS file: .container{ background-color: blue; width: 100%; height: 100vh;}",
+        "With these properties, the <div> will have a blue background, occupy the entire width and height of the browser window. CSS offers hundreds of properties you can explore in official documentation or online resources.",
+        "For larger projects, there are frameworks that simplify the use of predefined styles, such as Tailwind CSS and Bootstrap.",
+        "Tailwind is a framework that uses predefined utility classes to apply styles directly in HTML. For example, to center a <div> both vertically and horizontally, you can use:",
+        "<div class='flex justify-center items-center h-screen'></div>",
+        "These classes (flex, justify-center, items-center, h-screen) are already configured in Tailwind so that you don't have to write CSS from scratch.",
+        "Bootstrap is another very popular framework designed to simplify the development of responsive websites. This means your pages will look good on any device, from phones to large monitors. For example, you can use Bootstrap classes to create an adaptable navigation menu without writing additional CSS:",
+        "<nav class='navbar navbar-expand-lg navbar-light bg-light'>",
+        "<a class='navbar-brand' href='#'>My Site</a>",
+        "</nav>",
+        "Before using frameworks like Tailwind or Bootstrap, it is important to master the fundamentals of CSS by creating a basic project from scratch. This will help you understand how style properties work and how they interact with HTML. Once you understand CSS, using frameworks will be much easier, and you will take full advantage of their benefits."
+    ]
 }

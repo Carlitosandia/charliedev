@@ -35,3 +35,26 @@
     max-width: 50%; /* Ajusta para evitar desbordes */
     max-height: 50%; /* Mantiene las proporciones */
 }
+
+@media (max-width: 768px) {
+    .path{
+        flex-direction: column;
+    }
+
+    .infocontainer{
+        margin: 0 1rem;
+    }
+    .infocontainer p{
+        text-align: justify;
+        margin: 0.2rem;
+    }
+
+    .photocontainer{
+        margin: 1rem 1rem;
+    }
+
+    .photocontainer img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

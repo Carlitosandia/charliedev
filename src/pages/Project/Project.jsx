@@ -21,7 +21,6 @@ const Project = () => {
     return (
         <Layout>
             <div className={Styles.projectcontainer}>
-                <InformationBox project={project} />
                 <div className={Styles.projectinfo}>
                     <h1>{project.name}</h1>
                     <picture>
@@ -33,7 +32,9 @@ const Project = () => {
                         <p key={index}>{line}</p>
                     ))}
                 </div>
+                <InformationBox project={project} className={Styles.informationbox} />
             </div>
+
         </Layout>
     )
 }

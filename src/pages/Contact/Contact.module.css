@@ -88,3 +88,46 @@
     cursor: pointer;
     font-size: 1.1rem;
 }
+
+@media (max-width: 768px){
+    .contactcontainer {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 1rem;
+    }
+
+    .photocontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .picturecontainer img {
+        width: 100%;
+    }
+
+    .picturescontainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .picture img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .btncontact {
+        margin-top: 0rem;
+        background-color: var(--strongblue);
+        color: var(--white);
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+}
