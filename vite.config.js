@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server: { https: true },
   plugins: [react()],
-  base: './index.html',
+  base: './',  // CORRECTO: rutas relativas
   build: {
     input: {
-      app: './index.html', // default
+      app: './index.html', // está bien aquí
     },
   },
   resolve: {
@@ -17,3 +17,4 @@ export default defineConfig({
     }
   }
 });
+

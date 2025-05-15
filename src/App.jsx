@@ -9,6 +9,7 @@ import Skills from './pages/Skills/Skills';
 import Skill from './pages/Skill/Skill';
 import Contact from './pages/Contact/Contact';
 import './App.css';
+import Flower from './pages/Sofi/Flower';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/:type/:id" element={<Skill />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/flores" element={<Flower />} />
       </Routes>
     </Router>
   );
