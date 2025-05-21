@@ -24,7 +24,7 @@ export default function HeartLetter() {
           <div className="front pocket"></div>
           <div className="letter">
             <div className="words">
-              Para Sofi:<br />
+              Para el amor de mi vida (Sofi):<br />
               En este día de las cartas<br />
               de amor quiero entregarte esta<br />
               para demostrarte lo mucho que te quiero y te adoro con toda mi alma❤️
