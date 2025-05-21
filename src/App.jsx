@@ -10,6 +10,7 @@ import Skill from './pages/Skill/Skill';
 import Contact from './pages/Contact/Contact';
 import './App.css';
 import Flower from './pages/Sofi/Flower';
+import HeartLetter from './pages/Sofi/HeartLetter';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/:type/:id" element={<Skill />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/flores" element={<Flower />} />
+        <Route path="/letter" element={<HeartLetter />} />
       </Routes>
     </Router>
   );
