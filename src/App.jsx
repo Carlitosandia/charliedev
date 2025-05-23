@@ -11,6 +11,9 @@ import Contact from './pages/Contact/Contact';
 import './App.css';
 import Flower from './pages/Sofi/Flower';
 import HeartLetter from './pages/Sofi/HeartLetter';
+import BirthdayGift from './pages/Sofi/BirthdayGift';
+import Tickets from './pages/Sofi/TwentyGift/Tickets';
+import CountdownBar from './pages/Sofi/TwentyGift/CountDownBar';
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
         <Route path="/:type/:id" element={<Skill />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/flores" element={<Flower />} />
-        <Route path="/letter" element={<HeartLetter />} />
+        <Route path="/firstletter" element={<HeartLetter />} />
+        <Route path="/letter" element={<BirthdayGift />} />
+        <Route path="/19-04-2025" element={<Tickets />} />
+        <Route path="/miregalo" element={<CountdownBar />} />
       </Routes>
     </Router>
   );
