@@ -5,7 +5,7 @@ export default function Tickets() {
   const [password, setPassword] = useState("");
   const [accessGranted, setAccessGranted] = useState(false);
 
-  const correctPassword = "04-08-2025";
+  const correctPassword = "04-08-2005";
 
   const handleSubmit = (e) => {
     e.preventDefault();
