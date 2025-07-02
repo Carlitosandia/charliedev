@@ -14,6 +14,7 @@ import HeartLetter from './pages/Sofi/HeartLetter';
 import BirthdayGift from './pages/Sofi/BirthdayGift';
 import Tickets from './pages/Sofi/TwentyGift/Tickets';
 import CountdownBar from './pages/Sofi/TwentyGift/CountDownBar';
+import HundredDays from './pages/Sofi/hundred/hundreddays';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/letter" element={<BirthdayGift />} />
         <Route path="/19-04-2025" element={<Tickets />} />
         <Route path="/miregalo" element={<CountdownBar />} />
+        <Route path="/100" element={<HundredDays />}/>
       </Routes>
     </Router>
   );
