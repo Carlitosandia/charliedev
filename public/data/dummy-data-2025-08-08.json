@@ -1,0 +1,62 @@
+{
+  "ventas": [
+    {
+      "numero_venta": "VNT-20250808-0001",
+      "fecha": "2025-08-08T14:05:00Z",
+      "tipo_pago": "Efectivo",
+      "costo_subtotal": 1500.00,
+      "iva": 240.00,
+      "impuestos_adicionales": 50.00,
+      "costo_total": 1790.00,
+      "productos": [
+        { "sku": "HD-90007", "nombre": "Pistola de Calor 2000W", "cantidad": 1, "precio_unitario": 1500.00 }
+      ],
+      "sucursal": "Sucursal Norte",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "numero_productos": 1
+    },
+    {
+      "numero_venta": "VNT-20250808-0002",
+      "fecha": "2025-08-08T15:20:00Z",
+      "tipo_pago": "Tarjeta de Crédito",
+      "costo_subtotal": 850.00,
+      "iva": 136.00,
+      "impuestos_adicionales": 0.00,
+      "costo_total": 986.00,
+      "productos": [
+        { "sku": "HD-30010", "nombre": "Juego de Llaves Allen", "cantidad": 2, "precio_unitario": 425.00 }
+      ],
+      "sucursal": "Sucursal Centro",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "numero_productos": 2
+    }
+  ],
+  "resumen_sucursales": [
+    {
+      "numero_sucursal": "SC-001",
+      "nombre": "Sucursal Norte",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "total_ventas": 22,
+      "ventas_totales_monto": 31000.00,
+      "ganancia_total": 7900.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-90007", "nombre": "Pistola de Calor 2000W", "cantidad_vendida": 4 }
+      ]
+    },
+    {
+      "numero_sucursal": "SC-002",
+      "nombre": "Sucursal Centro",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "total_ventas": 38,
+      "ventas_totales_monto": 42000.00,
+      "ganancia_total": 10200.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-30010", "nombre": "Juego de Llaves Allen", "cantidad_vendida": 18 }
+      ]
+    }
+  ]
+}

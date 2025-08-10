@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "files": [
+    {"date": "2025-08-06", "url": "https://<tu-dominio>/data/dummy-data-2025-08-06.json"},
+    {"date": "2025-08-07", "url": "https://<tu-dominio>/data/dummy-data-2025-08-07.json"},
+    {"date": "2025-08-08", "url": "https://<tu-dominio>/data/dummy-data-2025-08-08.json"},
+    {"date": "2025-08-09", "url": "https://<tu-dominio>/data/dummy-data-2025-08-09.json"}
+  ]
+}

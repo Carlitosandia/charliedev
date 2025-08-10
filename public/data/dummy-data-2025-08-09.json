@@ -1,0 +1,94 @@
+{
+  "ventas": [
+    {
+      "numero_venta": "VNT-20250809-0001",
+      "fecha": "2025-08-09T09:35:21Z",
+      "tipo_pago": "Tarjeta de Crédito",
+      "costo_subtotal": 1250.00,
+      "iva": 200.00,
+      "impuestos_adicionales": 50.00,
+      "costo_total": 1500.00,
+      "productos": [
+        { "sku": "HD-10001", "nombre": "Taladro Inalámbrico 20V", "cantidad": 1, "precio_unitario": 1250.00 }
+      ],
+      "sucursal": "Sucursal Norte",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "numero_productos": 1
+    },
+    {
+      "numero_venta": "VNT-20250809-0002",
+      "fecha": "2025-08-09T10:12:45Z",
+      "tipo_pago": "Efectivo",
+      "costo_subtotal": 785.50,
+      "iva": 125.68,
+      "impuestos_adicionales": 0.00,
+      "costo_total": 911.18,
+      "productos": [
+        { "sku": "HD-20015", "nombre": "Caja de Herramientas 50cm", "cantidad": 1, "precio_unitario": 500.00 },
+        { "sku": "HD-30010", "nombre": "Juego de Llaves Allen", "cantidad": 2, "precio_unitario": 142.75 }
+      ],
+      "sucursal": "Sucursal Centro",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "numero_productos": 3
+    },
+    {
+      "numero_venta": "VNT-20250809-0003",
+      "fecha": "2025-08-09T11:48:09Z",
+      "tipo_pago": "Transferencia",
+      "costo_subtotal": 2650.00,
+      "iva": 424.00,
+      "impuestos_adicionales": 75.00,
+      "costo_total": 3149.00,
+      "productos": [
+        { "sku": "HD-40025", "nombre": "Compresor de Aire 50L", "cantidad": 1, "precio_unitario": 2650.00 }
+      ],
+      "sucursal": "Sucursal Sur",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX",
+      "numero_productos": 1
+    }
+  ],
+  "resumen_sucursales": [
+    {
+      "numero_sucursal": "SC-001",
+      "nombre": "Sucursal Norte",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "total_ventas": 25,
+      "ventas_totales_monto": 32500.00,
+      "ganancia_total": 8500.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-10001", "nombre": "Taladro Inalámbrico 20V", "cantidad_vendida": 12 },
+        { "sku": "HD-20015", "nombre": "Caja de Herramientas 50cm", "cantidad_vendida": 8 }
+      ]
+    },
+    {
+      "numero_sucursal": "SC-002",
+      "nombre": "Sucursal Centro",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "total_ventas": 40,
+      "ventas_totales_monto": 45200.00,
+      "ganancia_total": 10500.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-30010", "nombre": "Juego de Llaves Allen", "cantidad_vendida": 20 },
+        { "sku": "HD-20015", "nombre": "Caja de Herramientas 50cm", "cantidad_vendida": 15 }
+      ]
+    },
+    {
+      "numero_sucursal": "SC-003",
+      "nombre": "Sucursal Sur",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX",
+      "total_ventas": 32,
+      "ventas_totales_monto": 61000.00,
+      "ganancia_total": 15000.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-40025", "nombre": "Compresor de Aire 50L", "cantidad_vendida": 10 },
+        { "sku": "HD-50005", "nombre": "Sierra Circular 7\" 1500W", "cantidad_vendida": 7 }
+      ]
+    }
+  ]
+}

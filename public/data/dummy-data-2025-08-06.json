@@ -1,0 +1,62 @@
+{
+  "ventas": [
+    {
+      "numero_venta": "VNT-20250806-0001",
+      "fecha": "2025-08-06T08:12:00Z",
+      "tipo_pago": "Efectivo",
+      "costo_subtotal": 980.00,
+      "iva": 156.80,
+      "impuestos_adicionales": 0.00,
+      "costo_total": 1136.80,
+      "productos": [
+        { "sku": "HD-60001", "nombre": "Martillo Carpintero 16oz", "cantidad": 2, "precio_unitario": 490.00 }
+      ],
+      "sucursal": "Sucursal Centro",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "numero_productos": 2
+    },
+    {
+      "numero_venta": "VNT-20250806-0002",
+      "fecha": "2025-08-06T10:20:15Z",
+      "tipo_pago": "Tarjeta de Débito",
+      "costo_subtotal": 3500.00,
+      "iva": 560.00,
+      "impuestos_adicionales": 100.00,
+      "costo_total": 4160.00,
+      "productos": [
+        { "sku": "HD-70010", "nombre": "Escalera de Aluminio 6 Peldaños", "cantidad": 1, "precio_unitario": 3500.00 }
+      ],
+      "sucursal": "Sucursal Norte",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "numero_productos": 1
+    }
+  ],
+  "resumen_sucursales": [
+    {
+      "numero_sucursal": "SC-001",
+      "nombre": "Sucursal Norte",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "total_ventas": 20,
+      "ventas_totales_monto": 28000.00,
+      "ganancia_total": 7200.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-70010", "nombre": "Escalera de Aluminio 6 Peldaños", "cantidad_vendida": 5 }
+      ]
+    },
+    {
+      "numero_sucursal": "SC-002",
+      "nombre": "Sucursal Centro",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "total_ventas": 35,
+      "ventas_totales_monto": 39000.00,
+      "ganancia_total": 9600.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-60001", "nombre": "Martillo Carpintero 16oz", "cantidad_vendida": 15 }
+      ]
+    }
+  ]
+}

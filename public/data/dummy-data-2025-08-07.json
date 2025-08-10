@@ -1,0 +1,34 @@
+{
+  "ventas": [
+    {
+      "numero_venta": "VNT-20250807-0001",
+      "fecha": "2025-08-07T09:50:00Z",
+      "tipo_pago": "Transferencia",
+      "costo_subtotal": 4500.00,
+      "iva": 720.00,
+      "impuestos_adicionales": 0.00,
+      "costo_total": 5220.00,
+      "productos": [
+        { "sku": "HD-80005", "nombre": "Generador Eléctrico 3000W", "cantidad": 1, "precio_unitario": 4500.00 }
+      ],
+      "sucursal": "Sucursal Sur",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX",
+      "numero_productos": 1
+    }
+  ],
+  "resumen_sucursales": [
+    {
+      "numero_sucursal": "SC-003",
+      "nombre": "Sucursal Sur",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX",
+      "total_ventas": 28,
+      "ventas_totales_monto": 50500.00,
+      "ganancia_total": 13000.00,
+      "productos_mas_vendidos": [
+        { "sku": "HD-80005", "nombre": "Generador Eléctrico 3000W", "cantidad_vendida": 6 }
+      ]
+    }
+  ]
+}
